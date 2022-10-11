@@ -1,0 +1,239 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'no' Physical Memory: 32676 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+D:/NTNU/4th year/Spilldesign/project/TPD4168 Spilldesign Game
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+51682
+Successfully changed project path to: D:/NTNU/4th year/Spilldesign/project/TPD4168 Spilldesign Game
+D:/NTNU/4th year/Spilldesign/project/TPD4168 Spilldesign Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 83.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path D:/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/NTNU/4th year/Spilldesign/project/TPD4168 Spilldesign Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   NVIDIA
+    VRAM:     5968 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'D:/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002754 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 79.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.541 seconds
+Domain Reload Profiling:
+	ReloadAssembly (541ms)
+		BeginReloadAssembly (58ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (400ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (90ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004285 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\NTNU\4th year\Spilldesign\project\TPD4168 Spilldesign Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\NTNU\4th year\Spilldesign\project\TPD4168 Spilldesign Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 78.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.963 seconds
+Domain Reload Profiling:
+	ReloadAssembly (964ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (783ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (222ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (406ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4070 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (223.0 KB). Loaded Objects now: 4520.
+Memory consumption went from 151.4 MB to 151.2 MB.
+Total: 3.587200 ms (FindLiveObjects: 0.330600 ms CreateObjectMapping: 0.266200 ms MarkObjects: 2.837400 ms  DeleteObjects: 0.151900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17739.813732 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Stick Figure-like/Ground&Sky.png
+  artifactKey: Guid(e9b385355511d7a458cae8d8e592ed23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Stick Figure-like/Ground&Sky.png using Guid(e9b385355511d7a458cae8d8e592ed23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e454901253e11053c2d8b2af7faa1daf') in 0.242190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.948739 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Farming/Dirt_Left.png
+  artifactKey: Guid(4b3d667bcfe137e4bac8ca33c38cf267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Farming/Dirt_Left.png using Guid(4b3d667bcfe137e4bac8ca33c38cf267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040f47e7793687c710592dda45c8d7c9') in 0.027815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Farming/DirtRow.png
+  artifactKey: Guid(58990ff17db16224eb6d25d150205554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Farming/DirtRow.png using Guid(58990ff17db16224eb6d25d150205554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a2f361c71129ede4177509e3b4942f') in 0.021133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.709010 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/UI/Dialogue.png
+  artifactKey: Guid(9b337a360b84fa9428fe7dbe7774012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/UI/Dialogue.png using Guid(9b337a360b84fa9428fe7dbe7774012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb31fdf4f8c5f27e5b2bcc20834264db') in 0.014913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/UI/Panel.png
+  artifactKey: Guid(2d2a8283297ec2145995167477834885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/UI/Panel.png using Guid(2d2a8283297ec2145995167477834885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8befbfef0b21c120e45ef1ddd66b4f7c') in 0.016117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.033403 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/Club.png
+  artifactKey: Guid(06140cc248b05d2488fbb6493ce5fd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/Club.png using Guid(06140cc248b05d2488fbb6493ce5fd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac172bd0b6271e5684ea3faa90d3dad7') in 0.017133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/Spear.png
+  artifactKey: Guid(bf28d1ab5e5c42e4aa2c9b729c09fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/Spear.png using Guid(bf28d1ab5e5c42e4aa2c9b729c09fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5d371e286ed3a1a1001bf3198914eb') in 0.018866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.637435 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Sounds/ButtonHover.wav
+  artifactKey: Guid(e7992d172691ce147bde04a9ea103f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Sounds/ButtonHover.wav using Guid(e7992d172691ce147bde04a9ea103f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c733b368491a8a6c326448e0f9bd7ddf') in 0.044115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Sounds/GruntVoice01.wav
+  artifactKey: Guid(558f9f56f603a954b8d45e17e89341d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Sounds/GruntVoice01.wav using Guid(558f9f56f603a954b8d45e17e89341d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072766524468c2ad0777fe25af08f42d') in 0.010564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Sounds/RespawnCountdown.wav
+  artifactKey: Guid(33469e3f01006ba44bdcfb56b0e3e0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Sounds/RespawnCountdown.wav using Guid(33469e3f01006ba44bdcfb56b0e3e0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffd248bbc906c69cf5854565348aac2') in 0.014061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Sounds/GameOver.wav
+  artifactKey: Guid(832aa39d4fbe053428a67083bb091a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Sounds/GameOver.wav using Guid(832aa39d4fbe053428a67083bb091a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca251f60bf0eba5443db90f69d1c7bc') in 0.012864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.335668 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Effects/Fireball.png
+  artifactKey: Guid(5ff9fd1dfa3921644a587a08e82b9e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Effects/Fireball.png using Guid(5ff9fd1dfa3921644a587a08e82b9e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43373ab4ee6733b80fb129ff1026e499') in 0.021032 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
