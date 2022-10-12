@@ -75,8 +75,6 @@ public class Player_Wik_Movement : MonoBehaviour
         if (collision.gameObject.tag == "Wall")
         {
             throwSpeed = 0;
-            print("he");
-
         }
     }
 }
