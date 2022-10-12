@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'no' Physical Memory: 32676 MB
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 16314 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker4
 -projectPath
-D:/NTNU/4th year/Spilldesign/project/TPD4168 Spilldesign Game
+C:/Users/Yngve/Documents/GitHub/unity-game/TPD4168 Spilldesign Game
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-51682
-Successfully changed project path to: D:/NTNU/4th year/Spilldesign/project/TPD4168 Spilldesign Game
-D:/NTNU/4th year/Spilldesign/project/TPD4168 Spilldesign Game
+58953
+Successfully changed project path to: C:/Users/Yngve/Documents/GitHub/unity-game/TPD4168 Spilldesign Game
+C:/Users/Yngve/Documents/GitHub/unity-game/TPD4168 Spilldesign Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,115 +47,111 @@ D:/NTNU/4th year/Spilldesign/project/TPD4168 Spilldesign Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 79.23 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 106.31 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.8f1 (b30333d56e81)
-[Subsystems] Discovering subsystems at path D:/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/NTNU/4th year/Spilldesign/project/TPD4168 Spilldesign Game/Assets
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Yngve/Documents/GitHub/unity-game/TPD4168 Spilldesign Game/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
     Vendor:   NVIDIA
-    VRAM:     5968 MB
-    Driver:   31.0.15.1694
+    VRAM:     2988 MB
+    Driver:   30.0.15.1295
 Initialize mono
-Mono path[0] = 'D:/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002708 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008100 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 81.58 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 108.74 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.540 seconds
+- Completed reload, in  0.768 seconds
 Domain Reload Profiling:
-	ReloadAssembly (541ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (768ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (404ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (552ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (88ms)
+			SetupTypeCache (119ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (253ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (341ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (82ms)
+				RefreshPlugins (109ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (122ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004263 seconds.
+Registered in 0.009479 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\NTNU\4th year\Spilldesign\project\TPD4168 Spilldesign Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\NTNU\4th year\Spilldesign\project\TPD4168 Spilldesign Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yngve\Documents\GitHub\unity-game\TPD4168 Spilldesign Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yngve\Documents\GitHub\unity-game\TPD4168 Spilldesign Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 77.50 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 105.19 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.969 seconds
+- Completed reload, in  1.368 seconds
 Domain Reload Profiling:
-	ReloadAssembly (970ms)
-		BeginReloadAssembly (95ms)
+	ReloadAssembly (1369ms)
+		BeginReloadAssembly (128ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (785ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1102ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (205ms)
+			SetupTypeCache (288ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (424ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (594ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (212ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (301ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4070 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (223.0 KB). Loaded Objects now: 4520.
-Memory consumption went from 151.4 MB to 151.2 MB.
-Total: 4.107200 ms (FindLiveObjects: 0.339600 ms CreateObjectMapping: 0.314200 ms MarkObjects: 3.301500 ms  DeleteObjects: 0.151000 ms)
+Unloading 4072 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (56.1 KB). Loaded Objects now: 4528.
+Memory consumption went from 151.4 MB to 151.3 MB.
+Total: 4.654500 ms (FindLiveObjects: 0.398700 ms CreateObjectMapping: 0.128500 ms MarkObjects: 4.024900 ms  DeleteObjects: 0.100900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -163,553 +159,1355 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 17564.096160 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Cute
-  artifactKey: Guid(733ab9fa9ba9ef646b85074466697c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Cute using Guid(733ab9fa9ba9ef646b85074466697c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cdbb91cf387b968df293a0e9345a6f4') in 0.006898 seconds 
+  Time since last request: 28828.798601 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Insects/Animation
+  artifactKey: Guid(495ac023e15626f4f8629c8141d381e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Insects/Animation using Guid(495ac023e15626f4f8629c8141d381e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a3af81dd3a167b41663c5294dd3d25') in 0.013790 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.042824 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Cute/Coin.png
-  artifactKey: Guid(99af61578a2317c449e29344b2b17479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Cute/Coin.png using Guid(99af61578a2317c449e29344b2b17479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813577fd88cfe62d314083eca1474fef') in 0.104045 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003935 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\NTNU\4th year\Spilldesign\project\TPD4168 Spilldesign Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\NTNU\4th year\Spilldesign\project\TPD4168 Spilldesign Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.920 seconds
-Domain Reload Profiling:
-	ReloadAssembly (921ms)
-		BeginReloadAssembly (115ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (727ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (230ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (322ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.15 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4065 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (189.9 KB). Loaded Objects now: 4529.
-Memory consumption went from 155.7 MB to 155.6 MB.
-Total: 5.010900 ms (FindLiveObjects: 0.474400 ms CreateObjectMapping: 0.421200 ms MarkObjects: 3.924000 ms  DeleteObjects: 0.190300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004516 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\NTNU\4th year\Spilldesign\project\TPD4168 Spilldesign Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\NTNU\4th year\Spilldesign\project\TPD4168 Spilldesign Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.894 seconds
-Domain Reload Profiling:
-	ReloadAssembly (895ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (689ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (230ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (303ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (191ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.82 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4065 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (190.1 KB). Loaded Objects now: 4532.
-Memory consumption went from 155.8 MB to 155.6 MB.
-Total: 3.016700 ms (FindLiveObjects: 0.299900 ms CreateObjectMapping: 0.267700 ms MarkObjects: 2.286600 ms  DeleteObjects: 0.161500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004056 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\NTNU\4th year\Spilldesign\project\TPD4168 Spilldesign Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\NTNU\4th year\Spilldesign\project\TPD4168 Spilldesign Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.856 seconds
-Domain Reload Profiling:
-	ReloadAssembly (857ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (670ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (214ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (307ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (193ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.63 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4065 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (189.6 KB). Loaded Objects now: 4535.
-Memory consumption went from 155.7 MB to 155.6 MB.
-Total: 3.088900 ms (FindLiveObjects: 0.314500 ms CreateObjectMapping: 0.252600 ms MarkObjects: 2.375800 ms  DeleteObjects: 0.145200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 21.888747 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Backgrounds
+  artifactKey: Guid(32a6e3a01c461144e9231f98f40d26e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Backgrounds using Guid(32a6e3a01c461144e9231f98f40d26e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846d24e8a75b0d54b715d2bde60a8f83') in 0.006662 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 166.172633 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gold Miner
-  artifactKey: Guid(9df5db1903dfb3c429e93b53bd3e0e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gold Miner using Guid(9df5db1903dfb3c429e93b53bd3e0e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783be4d5ccb35da8df3f9f338174cf19') in 0.007082 seconds 
+  Time since last request: 0.044395 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Backgrounds/ArcadeGreyBackground.png
+  artifactKey: Guid(730c911464148054487bb3efd7ef0d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Backgrounds/ArcadeGreyBackground.png using Guid(730c911464148054487bb3efd7ef0d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54058699b86ed21ef83ed0af19deb8f') in 0.234147 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.308412 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic
-  artifactKey: Guid(b633fb2a2b1ebe044bac94117468b429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic using Guid(b633fb2a2b1ebe044bac94117468b429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378b6dfc7d4443491f220fb5742f1eae') in 0.001509 seconds 
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Backgrounds/DustyBackground.png
+  artifactKey: Guid(921dcff1d0da9eb409b4b461084190e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Backgrounds/DustyBackground.png using Guid(921dcff1d0da9eb409b4b461084190e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57234390bc224504edcfae3a412638b1') in 0.266672 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.429677 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic/Door.png
-  artifactKey: Guid(6b0d1d8d874d0944c89cfab5568a4d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic/Door.png using Guid(6b0d1d8d874d0944c89cfab5568a4d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac35b618996d364f98ac64c2b0053500') in 0.048853 seconds 
+  Time since last request: 12.150310 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4935f35005d3ccd51bf39964504ff1b7') in 0.007239 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic/Pentagram_Activated.png
-  artifactKey: Guid(45b96aab96433304a8dd459f35996197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic/Pentagram_Activated.png using Guid(45b96aab96433304a8dd459f35996197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e30b4d6314c41935acdd669c9a3a817') in 0.024445 seconds 
+  Time since last request: 6.016309 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Textures
+  artifactKey: Guid(5f6e8344c3218d44f8fd29234066aff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Textures using Guid(5f6e8344c3218d44f8fd29234066aff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb4736bb415161644c336e3ee18a5ff') in 0.006667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.071686 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Textures/Cave_Bush.png
+  artifactKey: Guid(f66cf91fe79cffe4bbe6a155e61e4bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Textures/Cave_Bush.png using Guid(f66cf91fe79cffe4bbe6a155e61e4bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79373c87fb1564dc72566939f524984') in 0.040857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Textures/Desert_Bushes.png
+  artifactKey: Guid(374f043a3f99333449e20804007556c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Textures/Desert_Bushes.png using Guid(374f043a3f99333449e20804007556c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7075dd656d1b558419ae5db2982b0ba1') in 0.032497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Textures/Summer_Flowers.png
+  artifactKey: Guid(0d0a4eda378924a488fc68a509785635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Textures/Summer_Flowers.png using Guid(0d0a4eda378924a488fc68a509785635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9998202b39c4d22b47fce00aac32437') in 0.027593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Textures/Winter_Snow_B.png
+  artifactKey: Guid(1a96f8a365e354b408b073050647357f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Textures/Winter_Snow_B.png using Guid(1a96f8a365e354b408b073050647357f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e084f2010b835387140835bea30ea6') in 0.029780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Textures/Winter_Spores.png
+  artifactKey: Guid(59569d2ed7e8b7047be6fb0008e4f048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Textures/Winter_Spores.png using Guid(59569d2ed7e8b7047be6fb0008e4f048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68bf6d5c85b1a2e9832f188c0c0588a7') in 0.029267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Textures/Summer_Roots.png
+  artifactKey: Guid(9160bb514caa5e641a0fc34cd91ce0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Textures/Summer_Roots.png using Guid(9160bb514caa5e641a0fc34cd91ce0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e5d46cca6f3120664ff865871fd35f') in 0.038660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Textures/Winter_Ice_Cracked_A.png
+  artifactKey: Guid(8cba0a30a7bd0b0439ceea078f02eeef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Textures/Winter_Ice_Cracked_A.png using Guid(8cba0a30a7bd0b0439ceea078f02eeef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9adc38b222a79635283af58765e6d8') in 0.038260 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic/Pentagram.png
-  artifactKey: Guid(e828181400a5c9e4a8a1be3357344d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic/Pentagram.png using Guid(e828181400a5c9e4a8a1be3357344d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa3e4c498e06f85178e1d519bb459e7') in 0.018009 seconds 
+  path: Assets/Sprites/Flat Textures Pack/Textures/Winter_Moss.png
+  artifactKey: Guid(df43085a593068e4a8a5f9b8bfce1e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Textures/Winter_Moss.png using Guid(df43085a593068e4a8a5f9b8bfce1e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd4f7e181453eb736925e5ce016b390') in 0.024715 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic/DoorUp.png
-  artifactKey: Guid(873b702d28a40a440a73c97c21d9fb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic/DoorUp.png using Guid(873b702d28a40a440a73c97c21d9fb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0503bf1675ab072969faecadb8c6f023') in 0.018631 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic/Gravestone.png
-  artifactKey: Guid(8467e1f58306e2a4f9fb7073a4f2b1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic/Gravestone.png using Guid(8467e1f58306e2a4f9fb7073a4f2b1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fe2c25d877ddd6d3809952b7b2eef1') in 0.013769 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.792414 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gold Miner/Grass.png
-  artifactKey: Guid(87a115d38f5f24e41bc12d879fc0f4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gold Miner/Grass.png using Guid(87a115d38f5f24e41bc12d879fc0f4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ee5ab72b6089e837be29d1660fc151') in 0.013277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gold Miner/Pyramids.png
-  artifactKey: Guid(9fdc2b7e1a8abbb4b88b95e2a3f4eb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gold Miner/Pyramids.png using Guid(9fdc2b7e1a8abbb4b88b95e2a3f4eb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b55efcdf74d8d12d9bfbbca84cf547') in 0.013652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.596389 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Stick Figure-like
-  artifactKey: Guid(7168da9b413d1684ca886c743c9bbe66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Stick Figure-like using Guid(7168da9b413d1684ca886c743c9bbe66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6995f418da536ddf85edd1ef04e98fac') in 0.001488 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.034738 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Stick Figure-like/Building.png
-  artifactKey: Guid(2797cf66f22b3b848ae0e681796df89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Stick Figure-like/Building.png using Guid(2797cf66f22b3b848ae0e681796df89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5793e9360a3b694930ba27158f0e17d6') in 0.027794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.102370 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Farming
-  artifactKey: Guid(6fbadade4217c3e4ab98a46433ff0cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Farming using Guid(6fbadade4217c3e4ab98a46433ff0cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe35f21be8c6d309a8a76a4a50100ab0') in 0.001528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.052930 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Farming/Barrel.png
-  artifactKey: Guid(550b6b4837f3a04499627c35f65670ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Farming/Barrel.png using Guid(550b6b4837f3a04499627c35f65670ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fabf1c400a5ddd6ece5a67101307d0') in 0.015316 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Farming/TableLog.png
-  artifactKey: Guid(fe7a23deba9c59f4982966f8b75d0c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Farming/TableLog.png using Guid(fe7a23deba9c59f4982966f8b75d0c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5e85acf9b8a44c78c49647f25c3c50') in 0.023575 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Farming/ExtraDirt.png
-  artifactKey: Guid(a4161b0fe09bab648a1434c7734d3b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Farming/ExtraDirt.png using Guid(a4161b0fe09bab648a1434c7734d3b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3dd636892bfe1aa04d3649172b155aa') in 0.019287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.642446 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/UI
-  artifactKey: Guid(72216c93e9f14c241a16086054be5744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/UI using Guid(72216c93e9f14c241a16086054be5744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75780d8ecd11a7c2137a9d8fb64790a0') in 0.001526 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.046506 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/UI/Arrow.png
-  artifactKey: Guid(09c0ffabe50dba2449423f828d63133a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/UI/Arrow.png using Guid(09c0ffabe50dba2449423f828d63133a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ad0478f514b61f6f021cbbd81a33c9') in 0.014211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/UI/ItemPoolFrame.png
-  artifactKey: Guid(9e81f1d2291050f49bab39ec9fd0bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/UI/ItemPoolFrame.png using Guid(9e81f1d2291050f49bab39ec9fd0bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e5622d0172dfa100046bf3f7a8f1e6') in 0.061810 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.916448 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools
-  artifactKey: Guid(f9dbb76816c806545b90a9b41245c7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools using Guid(f9dbb76816c806545b90a9b41245c7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55e6e643ead172cf47dbc67b17a7f23') in 0.001841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.065620 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/Axe.png
-  artifactKey: Guid(8708d80070522a043a1ab6a2b2775382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/Axe.png using Guid(8708d80070522a043a1ab6a2b2775382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0819db77c6ee54f3780d1d0ab7fb9c9') in 0.020336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/WateringCan.png
-  artifactKey: Guid(8dfb7eb4494cbe14eabf0fda5056d27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/WateringCan.png using Guid(8dfb7eb4494cbe14eabf0fda5056d27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43da2e711af0c6045a67e645a1ec86e2') in 0.014837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.586611 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Sounds
-  artifactKey: Guid(9b2a41508a41b18458cac2ac00503323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Sounds using Guid(9b2a41508a41b18458cac2ac00503323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e10725a2c20e40db03ad6dac5f43336') in 0.001687 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.043101 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Sounds/Bonus.wav
-  artifactKey: Guid(5ab8fc664ca4d604f820e255005a664a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Sounds/Bonus.wav using Guid(5ab8fc664ca4d604f820e255005a664a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d25e7aabb929ba5e5bdf348bfecf203') in 0.049244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Sounds/Spawn.wav
-  artifactKey: Guid(c134bf6bd85561b4b938c913b97b57c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Sounds/Spawn.wav using Guid(c134bf6bd85561b4b938c913b97b57c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e063eafd4fbc43d7284a1651be9471') in 0.013418 seconds 
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Textures/Cave_Magma_B.png
+  artifactKey: Guid(f3f73fae8b0080b4b8c78a03d205b2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Textures/Cave_Magma_B.png using Guid(f3f73fae8b0080b4b8c78a03d205b2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c042e6cf356b5249f9a0673d8745749c') in 0.025416 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Sounds/Whoosh.wav
-  artifactKey: Guid(2ebf2421dddc15a45b7fc6ae8197b1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Sounds/Whoosh.wav using Guid(2ebf2421dddc15a45b7fc6ae8197b1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95756ebf978b1fcd4bbe22b2c30683e') in 0.009141 seconds 
+  path: Assets/Sprites/Flat Textures Pack/Textures/Summer_Wall.png
+  artifactKey: Guid(b6729a0d44c32e94a9e0ead2606f79a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Textures/Summer_Wall.png using Guid(b6729a0d44c32e94a9e0ead2606f79a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b635f07d1896e59d0b1d06b20601e434') in 0.333540 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Sounds/Explosion.wav
-  artifactKey: Guid(d1698dd553af8ef4d887bc83b9687173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Sounds/Explosion.wav using Guid(d1698dd553af8ef4d887bc83b9687173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0039296aea9b71b6aa293d18f93123') in 0.015620 seconds 
+  Time since last request: 6.516358 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Materials
+  artifactKey: Guid(dcb7bdab26c5ddf4da72b22640d05580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Materials using Guid(dcb7bdab26c5ddf4da72b22640d05580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50098aef0b8cea4445bbcc23517f4851') in 0.006445 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.293202 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Effects
-  artifactKey: Guid(b0f3f6709c849c849a4397d379fd81d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Effects using Guid(b0f3f6709c849c849a4397d379fd81d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fece9abab52da22c2de837106b106c8') in 0.001681 seconds 
+  Time since last request: 0.069163 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Materials/Cave_Bush.mat
+  artifactKey: Guid(e9626647ac5db254d9e870edcdfd343b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Materials/Cave_Bush.mat using Guid(e9626647ac5db254d9e870edcdfd343b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bfb875756b503b467d95a03bb1461b') in 0.169525 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.030457 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Effects/Explosion.png
-  artifactKey: Guid(947c0cbf176869a45b7fd547776a2b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Effects/Explosion.png using Guid(947c0cbf176869a45b7fd547776a2b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674759c47500c76af6a6eeab655419e8') in 0.040653 seconds 
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Materials/Winter_Spores.mat
+  artifactKey: Guid(b212d6d3e65f24a41a49b9361880e85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Materials/Winter_Spores.mat using Guid(b212d6d3e65f24a41a49b9361880e85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4000230aa5f98ac9cccc06d96b9c184') in 0.024640 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 87.100362 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Effects/Animation
-  artifactKey: Guid(28511bfa265f55f408f709b0150288b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Effects/Animation using Guid(28511bfa265f55f408f709b0150288b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f34af97c1d4d501070b58d825efe77a') in 0.001411 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004846 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\NTNU\4th year\Spilldesign\project\TPD4168 Spilldesign Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\NTNU\4th year\Spilldesign\project\TPD4168 Spilldesign Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.852 seconds
-Domain Reload Profiling:
-	ReloadAssembly (853ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (659ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (221ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (283ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (178ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.25 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4065 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (189.9 KB). Loaded Objects now: 4581.
-Memory consumption went from 155.9 MB to 155.7 MB.
-Total: 2.755700 ms (FindLiveObjects: 0.311900 ms CreateObjectMapping: 0.208300 ms MarkObjects: 2.086100 ms  DeleteObjects: 0.148600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004643 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\NTNU\4th year\Spilldesign\project\TPD4168 Spilldesign Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\NTNU\4th year\Spilldesign\project\TPD4168 Spilldesign Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.819 seconds
-Domain Reload Profiling:
-	ReloadAssembly (820ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (639ms)
-			LoadAssemblies (64ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (202ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (291ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (183ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.77 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4065 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (189.9 KB). Loaded Objects now: 4584.
-Memory consumption went from 155.9 MB to 155.7 MB.
-Total: 2.817000 ms (FindLiveObjects: 0.305400 ms CreateObjectMapping: 0.231300 ms MarkObjects: 2.153000 ms  DeleteObjects: 0.126700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000068 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Materials/Winter_Roots.mat
+  artifactKey: Guid(5c02dae6770af354d97ceaacb0dcfaa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Materials/Winter_Roots.mat using Guid(5c02dae6770af354d97ceaacb0dcfaa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50802ed91bb9f823e653f58cb334d2e') in 0.026335 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 191.208203 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Enemies
-  artifactKey: Guid(92f04314ab1e01a4fae4487a854693e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Enemies using Guid(92f04314ab1e01a4fae4487a854693e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d736a97114b5323a51a5b627f9b77c3') in 0.007331 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Materials/Forest_RiverPebbles.mat
+  artifactKey: Guid(33edbb19ee29c624ab5c9184c95c5f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Materials/Forest_RiverPebbles.mat using Guid(33edbb19ee29c624ab5c9184c95c5f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cab3fb873599477adca152310e9b110') in 0.025676 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.029370 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Enemies/AlienSpaceship.png
-  artifactKey: Guid(a8166ea434d337349818825bff42d2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Enemies/AlienSpaceship.png using Guid(a8166ea434d337349818825bff42d2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878b2c4a688e45ba6a0b86e6f62a2b9c') in 0.050125 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Materials/Desert_Cliff.mat
+  artifactKey: Guid(759f0740a4cb77047931846c47ae6924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Materials/Desert_Cliff.mat using Guid(759f0740a4cb77047931846c47ae6924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa908b8db8744049c5b8ec4b34120177') in 0.026247 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Canon.png
-  artifactKey: Guid(8bfadec067237c04ab16144f6847e733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Canon.png using Guid(8bfadec067237c04ab16144f6847e733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ac637af014795bc967b6771da2a9fd') in 0.021484 seconds 
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Materials/WInter_Snow_Rocks.mat
+  artifactKey: Guid(a080f7b6b977d1d478336b9f12f52fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Materials/WInter_Snow_Rocks.mat using Guid(a080f7b6b977d1d478336b9f12f52fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed11d55ea900bf75cee2e2555d1e861') in 0.022879 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Enemies/SpikyBall.png
-  artifactKey: Guid(a2d68081d156f704bb974b65c4ba11c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Enemies/SpikyBall.png using Guid(a2d68081d156f704bb974b65c4ba11c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feaee2b7f3bde12effe29a991c7b0da4') in 0.017646 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Materials/Winter_Snow_B.mat
+  artifactKey: Guid(00494841d457c5e40beb347b6483f7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Materials/Winter_Snow_B.mat using Guid(00494841d457c5e40beb347b6483f7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb22f64af689ef36812c57676723b8cf') in 0.023023 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.825438 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Insects
-  artifactKey: Guid(b7fa61fe51b85374db4295ace9446ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Insects using Guid(b7fa61fe51b85374db4295ace9446ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf4ad6b2ad450aa0cf90bdac95a4818') in 0.001477 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Materials/Cave_LavaRocks_A.mat
+  artifactKey: Guid(f4dcba098a2788048a77363897d1a6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Materials/Cave_LavaRocks_A.mat using Guid(f4dcba098a2788048a77363897d1a6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6628dae9681a5d22529f758db260ec33') in 0.023679 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.061090 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Insects/Beetle.png
-  artifactKey: Guid(a50747b7090647445a1aa71f3aefd771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Insects/Beetle.png using Guid(a50747b7090647445a1aa71f3aefd771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb193ea11c183d91fab4f02015e994b3') in 0.017558 seconds 
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Materials/Summer_Roses.mat
+  artifactKey: Guid(363270fb71ae7aa45ac7c91408bbe012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Materials/Summer_Roses.mat using Guid(363270fb71ae7aa45ac7c91408bbe012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb236da4befe9b747286fbf3f186e2c2') in 0.025374 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.892561 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Insects/Animation
-  artifactKey: Guid(495ac023e15626f4f8629c8141d381e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Insects/Animation using Guid(495ac023e15626f4f8629c8141d381e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85afcd6139885063f5ea0db30dd88926') in 0.001250 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Materials/Winter_IceCliff.mat
+  artifactKey: Guid(41b973d990ff1c748a4f9a7c29998342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Materials/Winter_IceCliff.mat using Guid(41b973d990ff1c748a4f9a7c29998342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2ab4d1974c0c03adf1c36370b72847') in 0.025049 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.778793 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Insects/Animation/GiantBeetle
-  artifactKey: Guid(84d049e7f91dee244aad362ef63d4282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Insects/Animation/GiantBeetle using Guid(84d049e7f91dee244aad362ef63d4282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f79aa228533b9ad6df66e3d4d3affff') in 0.001586 seconds 
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Materials/Summer_ForestRoad.mat
+  artifactKey: Guid(55d9b8c647ad2ba4899329faec1273da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Materials/Summer_ForestRoad.mat using Guid(55d9b8c647ad2ba4899329faec1273da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462334982fb2adfc37ec75743ae818e8') in 0.025481 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.147082 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/-- Example Photos --
-  artifactKey: Guid(f7d7abb4a000bc947a5d02dbbac1b36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/-- Example Photos -- using Guid(f7d7abb4a000bc947a5d02dbbac1b36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0283a32e1673a63be8350b18e41232ce') in 0.001464 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Materials/Desert_CracedMud.mat
+  artifactKey: Guid(9c499f1f265a28748a3f4ccecb05c8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Materials/Desert_CracedMud.mat using Guid(9c499f1f265a28748a3f4ccecb05c8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fa96da92dfa3987d2fcf3a88ca60a2') in 0.025145 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.053201 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/-- Example Photos --/Crafting Example.PNG
-  artifactKey: Guid(a4d8cf470cb38154fb8591eed220cddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/-- Example Photos --/Crafting Example.PNG using Guid(a4d8cf470cb38154fb8591eed220cddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655926d8e92f4c742b512cddb15a97ee') in 0.131130 seconds 
+  Time since last request: 2.332551 seconds.
+  path: Assets/Sprites/Flat Textures Pack/Demo
+  artifactKey: Guid(55080760470e33b48b7a68558ba0c3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Flat Textures Pack/Demo using Guid(55080760470e33b48b7a68558ba0c3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8fc86d2dddc08c10a669f366691622') in 0.007801 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/Brackeys/2D Mega Pack/-- Example Photos --/Gold Miner Example.png
-  artifactKey: Guid(0eee6b3f41fb0134d80930957ef67fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/-- Example Photos --/Gold Miner Example.png using Guid(0eee6b3f41fb0134d80930957ef67fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7983dd319fdd21b5600d9643334934c') in 0.096893 seconds 
+  Time since last request: 10.767807 seconds.
+  path: Assets/Sprites/2D crawler pack/godot_autotiles
+  artifactKey: Guid(b7e7ad08b1e7c9c49ac8047692006d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D crawler pack/godot_autotiles using Guid(b7e7ad08b1e7c9c49ac8047692006d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14385845628c084a715d29fe9923b958') in 0.006624 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000057 seconds.
+  Time since last request: 0.076043 seconds.
+  path: Assets/Sprites/2D crawler pack/godot_autotiles/anim_autotile_0.png
+  artifactKey: Guid(50f5be89ebb2c604a8dcc40ff1866759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D crawler pack/godot_autotiles/anim_autotile_0.png using Guid(50f5be89ebb2c604a8dcc40ff1866759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b93e6c821a9f169fee7c954d5f183e') in 0.023343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/2D crawler pack/godot_autotiles/anim_autotile_23.png
+  artifactKey: Guid(c2b48362a4d511d4d9eb8bb5660c137c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D crawler pack/godot_autotiles/anim_autotile_23.png using Guid(c2b48362a4d511d4d9eb8bb5660c137c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8591cefc578d087df5b448842bab98') in 0.025316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/2D crawler pack/godot_autotiles/ground_autotile_31.png
+  artifactKey: Guid(1ce8d5502e4e4f047bdf2045f4882c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D crawler pack/godot_autotiles/ground_autotile_31.png using Guid(1ce8d5502e4e4f047bdf2045f4882c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721a8b0b4bea46cbe776dd58aae0ce1e') in 0.022709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/2D crawler pack/godot_autotiles/ground_dungeon_autotile_0.png
+  artifactKey: Guid(0d78158f24e6a844d84f6f05d0e1777e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D crawler pack/godot_autotiles/ground_dungeon_autotile_0.png using Guid(0d78158f24e6a844d84f6f05d0e1777e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0636388729b34792dde1320871c2fa92') in 0.021171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/2D crawler pack/godot_autotiles/ground_dungeon_autotile_16.png
+  artifactKey: Guid(8c75b9ad77771434ea3c54ea5993b478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D crawler pack/godot_autotiles/ground_dungeon_autotile_16.png using Guid(8c75b9ad77771434ea3c54ea5993b478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c190070f9b12633b9ea769e8703c4c59') in 0.021576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/2D crawler pack/godot_autotiles/template_waterfall.png
+  artifactKey: Guid(1f1c39a071bd1c64888b82de879ff969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D crawler pack/godot_autotiles/template_waterfall.png using Guid(1f1c39a071bd1c64888b82de879ff969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d2e22fe17b97c87e85d00058d7c322') in 0.022915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/2D crawler pack/godot_autotiles/wall_dungeon_autotile_5.png
+  artifactKey: Guid(21edca7a6e3f97c43ac68efa52da4ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D crawler pack/godot_autotiles/wall_dungeon_autotile_5.png using Guid(21edca7a6e3f97c43ac68efa52da4ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a73b6292dcf3b53f765dc8ded404007') in 0.022291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/2D crawler pack/godot_autotiles/ground_autotile_3.png
+  artifactKey: Guid(d3bc8241dad3bce498f25ab8c13ec3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D crawler pack/godot_autotiles/ground_autotile_3.png using Guid(d3bc8241dad3bce498f25ab8c13ec3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297a11ac4dbf3fc1eb67f4421de64e19') in 0.019888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/2D crawler pack/godot_autotiles/ground_dungeon_autotile_3.png
+  artifactKey: Guid(175ad79dada155840a7094e214a73202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D crawler pack/godot_autotiles/ground_dungeon_autotile_3.png using Guid(175ad79dada155840a7094e214a73202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989e420ee1d21bf3184619893cca1901') in 0.021263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/2D crawler pack/godot_autotiles/ground_autotile_18.png
+  artifactKey: Guid(3a5bf073f0ae79246a2560036f710aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D crawler pack/godot_autotiles/ground_autotile_18.png using Guid(3a5bf073f0ae79246a2560036f710aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523fe7cf00d1cd064d8d274b73003b1a') in 0.020821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/2D crawler pack/godot_autotiles/ground_autotile_17.png
+  artifactKey: Guid(d926047cfa5111844b0a9ad486eda272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D crawler pack/godot_autotiles/ground_autotile_17.png using Guid(d926047cfa5111844b0a9ad486eda272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4fb0532f009be78b92cbd1e8dc4ad99') in 0.023013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/2D crawler pack/godot_autotiles/ground_autotile_4.png
+  artifactKey: Guid(42804261d0844844b99bafc7a8a336cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D crawler pack/godot_autotiles/ground_autotile_4.png using Guid(42804261d0844844b99bafc7a8a336cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca59e6fc778acce0230c68fab35ca62') in 0.021246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/2D crawler pack/godot_autotiles/ground_autotile_14.png
+  artifactKey: Guid(59747cd1dcc2f3449b111a5d251c92db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D crawler pack/godot_autotiles/ground_autotile_14.png using Guid(59747cd1dcc2f3449b111a5d251c92db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7be67ec5ff2c0d28623d5ff4faa5510') in 0.022507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/2D crawler pack/godot_autotiles/ground_dungeon_autotile_8.png
+  artifactKey: Guid(536c0b91335d5dd43ac05047dc1d84f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D crawler pack/godot_autotiles/ground_dungeon_autotile_8.png using Guid(536c0b91335d5dd43ac05047dc1d84f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3caadcd06151531006131fadabcab2e2') in 0.020678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Sprites/2D crawler pack/godot_autotiles/ground_autotile_16.png
+  artifactKey: Guid(128af3a8cd010824eb8da0df497d10a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D crawler pack/godot_autotiles/ground_autotile_16.png using Guid(128af3a8cd010824eb8da0df497d10a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb462ab3aafcdc3dc5fd69ad272a06d') in 0.021682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.634862 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment
+  artifactKey: Guid(bca675569e8d6de4896e306c9d89550b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment using Guid(bca675569e8d6de4896e306c9d89550b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76728e199fd5d8aef076dbecbbdc9de4') in 0.006504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.080285 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/DungeonFrame1 1.png
+  artifactKey: Guid(81bfcd38f8b681a45ba1ab2f6442d412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/DungeonFrame1 1.png using Guid(81bfcd38f8b681a45ba1ab2f6442d412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888e01a39cea67c72daf4bed911f8b33') in 0.048351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.727482 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Tiles
+  artifactKey: Guid(a897745de3aa7334c91f87b408d10bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Tiles using Guid(a897745de3aa7334c91f87b408d10bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985e8b301405e2f13383ddff52302b2e') in 0.006836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.106352 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gold Miner
+  artifactKey: Guid(9df5db1903dfb3c429e93b53bd3e0e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gold Miner using Guid(9df5db1903dfb3c429e93b53bd3e0e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d8b54802d0487e4e2fc936d9542284') in 0.008817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.274900 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Arcade
+  artifactKey: Guid(17fd55df4a933424694d6d85d81d92d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Arcade using Guid(17fd55df4a933424694d6d85d81d92d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fbb6b9129186109c0c76fd18a2b013') in 0.007865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069711 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Arcade/Maze.png
+  artifactKey: Guid(8204023f9e360fb46a513b0283f0fc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Arcade/Maze.png using Guid(8204023f9e360fb46a513b0283f0fc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7508495e38e5286743f71ecbe40b09e') in 0.026558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.754555 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Stick Figure-like
+  artifactKey: Guid(7168da9b413d1684ca886c743c9bbe66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Stick Figure-like using Guid(7168da9b413d1684ca886c743c9bbe66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f238943327c75435e5567811a60efac') in 0.006569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.080098 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Stick Figure-like/Building.png
+  artifactKey: Guid(2797cf66f22b3b848ae0e681796df89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Stick Figure-like/Building.png using Guid(2797cf66f22b3b848ae0e681796df89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd6d50d7eeee0062c7a755a76153c63') in 0.045631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Stick Figure-like/Tree01.png
+  artifactKey: Guid(74523066bc47fe84dbaa42e33b2e9adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Stick Figure-like/Tree01.png using Guid(74523066bc47fe84dbaa42e33b2e9adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9151cef047b0a6fae6a3a1ed51ca64d') in 0.035763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Stick Figure-like/Tree02.png
+  artifactKey: Guid(8ea677391b262534088109be38edb0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Stick Figure-like/Tree02.png using Guid(8ea677391b262534088109be38edb0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040166d0047a1b70cfa75e7b49fefef4') in 0.032053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.706651 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Tiles/CheckerTile.png
+  artifactKey: Guid(993403597eaec3c4683fc27cd1dafeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Tiles/CheckerTile.png using Guid(993403597eaec3c4683fc27cd1dafeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a11f33ebc1faaf2523024f617f331c0') in 0.029946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Tiles/PlatformerTiles.png
+  artifactKey: Guid(9d760526269e55b40898d45c96b2a15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Tiles/PlatformerTiles.png using Guid(9d760526269e55b40898d45c96b2a15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f554c63bfd28b3118884de8ce859b6d') in 0.033762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Tiles/SpikeTile.png
+  artifactKey: Guid(6e7580be5a9ef3a4a8afe09141952188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Tiles/SpikeTile.png using Guid(6e7580be5a9ef3a4a8afe09141952188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd774969c51be872bd5e5dd0a3a9e73e') in 0.024630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.733730 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic
+  artifactKey: Guid(b633fb2a2b1ebe044bac94117468b429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic using Guid(b633fb2a2b1ebe044bac94117468b429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1af9fa7b74ab7e5f5df92d72efcd09') in 0.006791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063399 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic/Door.png
+  artifactKey: Guid(6b0d1d8d874d0944c89cfab5568a4d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic/Door.png using Guid(6b0d1d8d874d0944c89cfab5568a4d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ea93e07a52f7e6f4f3f3c0b30e8ccf') in 0.027944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic/Gravestone.png
+  artifactKey: Guid(8467e1f58306e2a4f9fb7073a4f2b1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic/Gravestone.png using Guid(8467e1f58306e2a4f9fb7073a4f2b1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd5e126e4a0f761dd3060e55f16d61f') in 0.026659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic/DoorUp_NoGround.png
+  artifactKey: Guid(ed301da1d8cd303439a7bc579fad3f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic/DoorUp_NoGround.png using Guid(ed301da1d8cd303439a7bc579fad3f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb20d9427d40855ce903571ec0f978e1') in 0.026410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic/Room.png
+  artifactKey: Guid(e828e0801aee5b146b70092d30626199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Gothic/Room.png using Guid(e828e0801aee5b146b70092d30626199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821742ab683f37e9076e31019109fd1a') in 0.035289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.256757 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons
+  artifactKey: Guid(7822755117c5791489d825013b05771e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons using Guid(7822755117c5791489d825013b05771e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911272bf064333c90ee535c1262b3ac9') in 0.006700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.090035 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Stick Figure-like
+  artifactKey: Guid(5f08e2f9335df9741a03b909e8213410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Stick Figure-like using Guid(5f08e2f9335df9741a03b909e8213410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee9c68b18a8958bfa989adb36dc0bd2') in 0.002443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044280 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Stick Figure-like/Humvee.png
+  artifactKey: Guid(b2e7d9b79031fb648847688edd499c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Stick Figure-like/Humvee.png using Guid(b2e7d9b79031fb648847688edd499c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d7daf850de8a240865876da5ce883b') in 0.035234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.484219 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Pixel Art
+  artifactKey: Guid(c610bb258d9a61a4f8a35d01bb14b8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Pixel Art using Guid(c610bb258d9a61a4f8a35d01bb14b8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35d8f4c31fead6212d124a1f12363a6') in 0.006698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067813 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Pixel Art/Castle.png
+  artifactKey: Guid(29a3d0bd681dee74485f9168cef7e5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Pixel Art/Castle.png using Guid(29a3d0bd681dee74485f9168cef7e5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d53c1228bb7a812bcbb5556748be562') in 0.030682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Pixel Art/Friendly Army.png
+  artifactKey: Guid(9af35dcba929e4d4e864929c8597e626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Pixel Art/Friendly Army.png using Guid(9af35dcba929e4d4e864929c8597e626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89464e84f7ff6b85bf273d7ea2d4896') in 0.025558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Pixel Art/World Ender.png
+  artifactKey: Guid(5c08bbcce060bf24c8074d9f4d593e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Pixel Art/World Ender.png using Guid(5c08bbcce060bf24c8074d9f4d593e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e45f66f95a73f95487eab1ac5970814') in 0.027298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Pixel Art/Potion.png
+  artifactKey: Guid(db005d11213e5da47b9769c2e6c56eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Pixel Art/Potion.png using Guid(db005d11213e5da47b9769c2e6c56eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb53d81f21308cd5cdd4628d2c533c5c') in 0.028007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Pixel Art/Enemy Army.png
+  artifactKey: Guid(d394cd193965f51409c82f41da637c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Pixel Art/Enemy Army.png using Guid(d394cd193965f51409c82f41da637c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e8f6909e83072e85f44af02da2c896') in 0.028828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Pixel Art/Meat.png
+  artifactKey: Guid(eab87f10d2afa594c92ed3d29451b618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Pixel Art/Meat.png using Guid(eab87f10d2afa594c92ed3d29451b618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7acd903f9b576e428c5769978810d5') in 0.027166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Pixel Art/Wood.png
+  artifactKey: Guid(efe2ac1e04c61d1429e370eb4e493aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Pixel Art/Wood.png using Guid(efe2ac1e04c61d1429e370eb4e493aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19da136d9c4705d1791a5866fd3f59a1') in 0.027132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.747733 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Minimalistic
+  artifactKey: Guid(d1ec5748bae8ea944b6253f8de078345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Minimalistic using Guid(d1ec5748bae8ea944b6253f8de078345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2278a208d9af97ce2468da2bb9201456') in 0.006857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082498 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Minimalistic/Ball.png
+  artifactKey: Guid(47d9d270483767d44b2ef0a8da994f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Minimalistic/Ball.png using Guid(47d9d270483767d44b2ef0a8da994f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c4a8d6170d04597c37688409c385e8') in 0.029714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.767201 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Grungy
+  artifactKey: Guid(ef61f69fb30101f48acd961b4dbaa582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Grungy using Guid(ef61f69fb30101f48acd961b4dbaa582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372a1cffab19d1d9fa6e0bdfbdcfe8f4') in 0.006730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.100770 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Grungy/Bullet.png
+  artifactKey: Guid(61f1ea0354dcb6b478b4e36c6e19e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Grungy/Bullet.png using Guid(61f1ea0354dcb6b478b4e36c6e19e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9bf921ed0648fe5c9a2fa8be43f12f') in 0.021158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.270855 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Characters
+  artifactKey: Guid(d9b6c188ea84ee5449f418bc1623dfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Characters using Guid(d9b6c188ea84ee5449f418bc1623dfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9ccae2c330bfa8e73763ea9913952f') in 0.006444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072912 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Characters/ArcadePlayer.png
+  artifactKey: Guid(b4c6e7d0285655f4a9db7355ab7ea678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Characters/ArcadePlayer.png using Guid(b4c6e7d0285655f4a9db7355ab7ea678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e96e67b14733d9ef30167c7b843e64') in 0.025029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Characters/PongPlayer.png
+  artifactKey: Guid(3f5d8b39358f65040ade5d7096bc8085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Characters/PongPlayer.png using Guid(3f5d8b39358f65040ade5d7096bc8085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd08d1ec74484ee70bcaad1c9eebb46') in 0.028817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Characters/MrPeanut.png
+  artifactKey: Guid(25dbfbd01b6dc0c49a048b76d7f7368f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Characters/MrPeanut.png using Guid(25dbfbd01b6dc0c49a048b76d7f7368f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2924cb7abeafa8be5ef8addcbb4c60c') in 0.034975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.751453 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Characters/Blob Players
+  artifactKey: Guid(958c4d21c835e5145bdf4bbdd4088b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Characters/Blob Players using Guid(958c4d21c835e5145bdf4bbdd4088b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8149684bc6204466676591569b70dfb0') in 0.008101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.358260 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Characters/Fantasy
+  artifactKey: Guid(34dd4a04fcabe9c4a952c91f62b6bbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Characters/Fantasy using Guid(34dd4a04fcabe9c4a952c91f62b6bbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2fa00b03daa959af7f3390ef9284c4') in 0.006442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078270 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Characters/Fantasy/Brute.png
+  artifactKey: Guid(8192c590fb896e8478742bc3423292c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Characters/Fantasy/Brute.png using Guid(8192c590fb896e8478742bc3423292c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d511b2f47ac960e0470182f3f1da77') in 0.027022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Characters/Fantasy/Troll.png
+  artifactKey: Guid(07f23995d5720bd4d9cd266799cef6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Characters/Fantasy/Troll.png using Guid(07f23995d5720bd4d9cd266799cef6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2c5e826335a83ea0d50044ed7222c2') in 0.023733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 330.412881 seconds.
+  path: Assets/Sprites/2D crawler pack/sprite/monsters_0.png
+  artifactKey: Guid(867339c9aba631b4abed5c5fc3acfd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D crawler pack/sprite/monsters_0.png using Guid(867339c9aba631b4abed5c5fc3acfd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8602380e21a00b3acd2044a235a874e8') in 0.012514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 174.336389 seconds.
+  path: Assets/Sprites/2D crawler pack/sprite/monsters_0.png
+  artifactKey: Guid(867339c9aba631b4abed5c5fc3acfd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D crawler pack/sprite/monsters_0.png using Guid(867339c9aba631b4abed5c5fc3acfd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733565e7dfe59f581ea657418dcbab52') in 0.283834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 800.756157 seconds.
+  path: Assets/Sprites/2D crawler pack/sprite/monsters_0.png
+  artifactKey: Guid(867339c9aba631b4abed5c5fc3acfd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D crawler pack/sprite/monsters_0.png using Guid(867339c9aba631b4abed5c5fc3acfd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9101a5499902400d31de426870e1f6') in 0.275425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 626.690878 seconds.
+  path: Assets/Sprites/Enemies
+  artifactKey: Guid(811f8bb50edf0194a9df42382a13e43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies using Guid(811f8bb50edf0194a9df42382a13e43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9800420ce7a841b3328076061732967b') in 0.003691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.929198 seconds.
+  path: Assets/Sprites/Enemies/monsters_0_38.asset
+  artifactKey: Guid(83d4c1f18e3760a48b92ba366b3ce39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/monsters_0_38.asset using Guid(83d4c1f18e3760a48b92ba366b3ce39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768c594e8f6497d11ef1047c6c38ea41') in 0.033287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003449 seconds.
+  path: Assets/Sprites/Enemies/monsters_0_0.asset
+  artifactKey: Guid(c470c1300bf141b43b8f886579877a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/monsters_0_0.asset using Guid(c470c1300bf141b43b8f886579877a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe0ff3bbaa805d151a10ee406c724ad') in 0.019215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018540 seconds.
+  path: Assets/Sprites/Enemies/monsters_0_13.asset
+  artifactKey: Guid(5449ee7b4447b98418af92ee46613761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/monsters_0_13.asset using Guid(5449ee7b4447b98418af92ee46613761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e3aff68bb2098be07f76787f511c56') in 0.018027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Enemies/monsters_0_25.asset
+  artifactKey: Guid(bbbdab2455420c74baaa25dfcba74af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/monsters_0_25.asset using Guid(bbbdab2455420c74baaa25dfcba74af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ee0e889d46d98409e551b6551a4f68') in 0.015554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/Enemies/monsters_0_24.asset
+  artifactKey: Guid(9eac7294d7bc213448510af4c32b026a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/monsters_0_24.asset using Guid(9eac7294d7bc213448510af4c32b026a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13879db0f646d53f04317af7169dcb9e') in 0.015331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Enemies/monsters_0_14.asset
+  artifactKey: Guid(e0cf937eaac25ed4fb099ce00d463d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/monsters_0_14.asset using Guid(e0cf937eaac25ed4fb099ce00d463d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ae2e769af9b1653f41b60de0b9edf0') in 0.015087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Enemies/monsters_0_37.asset
+  artifactKey: Guid(c4987478765a8684a9be023ea391517b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/monsters_0_37.asset using Guid(c4987478765a8684a9be023ea391517b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b558ee4d8be6a25d0ac84c41043af2c3') in 0.012503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.580717 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(6eb25b271093c3e479bac1f7b75140cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(6eb25b271093c3e479bac1f7b75140cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141792ded55851cfe12b836cde4e6d43') in 0.007235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.939424 seconds.
+  path: Assets/Animations/EnemySlime.controller
+  artifactKey: Guid(794d7b65b0121bc408c5c9760968f502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemySlime.controller using Guid(794d7b65b0121bc408c5c9760968f502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a6f2be4f2389a11983763b619624ea') in 0.012643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.948798 seconds.
+  path: Assets/Animations/Slime.prefab
+  artifactKey: Guid(2670df498098a2740bbefeb5603f29cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Slime.prefab using Guid(2670df498098a2740bbefeb5603f29cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b22ec2caac256168d724dba88ee490') in 0.033779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 93.556531 seconds.
+  path: Assets/Animations/monsters_0_0.prefab
+  artifactKey: Guid(5c881c6df1f2c434d8b41f8a2ad16ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/monsters_0_0.prefab using Guid(5c881c6df1f2c434d8b41f8a2ad16ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99cda544e14399231836f55ee78985ce') in 0.014536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 787.721436 seconds.
+  path: Assets/Animations/Idle.anim
+  artifactKey: Guid(4a7014e231000b74ba6048c3d598857d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Idle.anim using Guid(4a7014e231000b74ba6048c3d598857d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139c24e3a19fcfb23546c135cf50cbce') in 0.010697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 274.567711 seconds.
+  path: Assets/Animations/Jump.anim
+  artifactKey: Guid(90d40f70119ddac49a6bae14d9c7cd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jump.anim using Guid(90d40f70119ddac49a6bae14d9c7cd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db23937c888221c2c8739dfd4a0fc111') in 0.008332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.123187 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Shapes/LargeRing.png
+  artifactKey: Guid(8f4ea53398839234fb3e3aceb76b36a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Shapes/LargeRing.png using Guid(8f4ea53398839234fb3e3aceb76b36a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200989b7e7e2f00a12752809db7d675a') in 0.184496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057223 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/UI/ItemFrame.png
+  artifactKey: Guid(37b388a5217aba141900a0ac698315c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/UI/ItemFrame.png using Guid(37b388a5217aba141900a0ac698315c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e862b51f1b54dcf78c61d4ae6f829822') in 0.029823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/UI/ItemPoolFrame.png
+  artifactKey: Guid(9e81f1d2291050f49bab39ec9fd0bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/UI/ItemPoolFrame.png using Guid(9e81f1d2291050f49bab39ec9fd0bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e052ee37c2a3a93c43030bc436ee63') in 0.131345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.512831 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Grungy/ApartmentLevel.png
+  artifactKey: Guid(21a9c4db5a8aeb24697f53ea4e898402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Grungy/ApartmentLevel.png using Guid(21a9c4db5a8aeb24697f53ea4e898402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed6eeb14dbb94548fbdfb75c24099a9') in 0.065809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.218532 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Shapes/Arrow.png
+  artifactKey: Guid(24726326f0d24dc41875ec34f94e95b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Shapes/Arrow.png using Guid(24726326f0d24dc41875ec34f94e95b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a1645022572dded1fccaddb1bd3849') in 0.025470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.550672 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Aubergine_Dead.png
+  artifactKey: Guid(00f165b1254df1346b4653643b7997d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Aubergine_Dead.png using Guid(00f165b1254df1346b4653643b7997d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a151e23d907da00465bc501bf854d887') in 0.106365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Aubergine_Seed.png
+  artifactKey: Guid(3e219d5964d7ef1408da169b0cbdbcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Aubergine_Seed.png using Guid(3e219d5964d7ef1408da169b0cbdbcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2b28790b48f5040f54675546f9d983') in 0.023920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.747473 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/Axe.png
+  artifactKey: Guid(8708d80070522a043a1ab6a2b2775382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/Axe.png using Guid(8708d80070522a043a1ab6a2b2775382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a96d86d4b53d2c1b383081598d2d91') in 0.030356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Characters/Blob Players/BlobPlayer_Blue.png
+  artifactKey: Guid(ecd359c045351424082d2ba03ec132df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Characters/Blob Players/BlobPlayer_Blue.png using Guid(ecd359c045351424082d2ba03ec132df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fec6d1ef5c4ec27d0f3a39638c13dff') in 0.053801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005131 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Arcade/BlueButton.png
+  artifactKey: Guid(f335c0c95fe37244eaa86486b45b5eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Arcade/BlueButton.png using Guid(f335c0c95fe37244eaa86486b45b5eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c353f1f1923126e134d9eac304bd5e72') in 0.024912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008432 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Arcade/BlueDoor.png
+  artifactKey: Guid(d532d529a5217894eae5df878c0c4fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Arcade/BlueDoor.png using Guid(d532d529a5217894eae5df878c0c4fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594c518dd4a53307b552836718cd1753') in 0.028250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/-- Example Photos --/Dungeon Puzzle Example.png
+  artifactKey: Guid(a6a22e0c395be6049bb58c2edebd5c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/-- Example Photos --/Dungeon Puzzle Example.png using Guid(a6a22e0c395be6049bb58c2edebd5c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ae957a327f3ab3cdfcb95162c5044e') in 0.180383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/UI/IconBox.png
+  artifactKey: Guid(418d638d3bbaa6f4b82cd8c785a73ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/UI/IconBox.png using Guid(418d638d3bbaa6f4b82cd8c785a73ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41727d7b6c9069512ef68fda8f70986c') in 0.024519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Arcade/Bullet.png
+  artifactKey: Guid(89676eea46ffbb2499fc4723811a023c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Arcade/Bullet.png using Guid(89676eea46ffbb2499fc4723811a023c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c37a06087a74e9e314cf5b4e3c96bf') in 0.020516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Vegetation/Flower3.png
+  artifactKey: Guid(090685ddfa394cd439be5ce36d30362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Vegetation/Flower3.png using Guid(090685ddfa394cd439be5ce36d30362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faaa65c57c69ebde60b664fad9ee5e41') in 0.024273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028379 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Vegetation/Moss1.png
+  artifactKey: Guid(177621d0d45130a48a52d74be36888e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Vegetation/Moss1.png using Guid(177621d0d45130a48a52d74be36888e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16289ce59af115643bb5f6fd477cc91b') in 0.024877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001095 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Vegetation/Mushroom.png
+  artifactKey: Guid(533bbe1c8660d2b4baac22db4296ade3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Vegetation/Mushroom.png using Guid(533bbe1c8660d2b4baac22db4296ade3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73dcfe514fac764214a18d9c090a096c') in 0.025372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Effects/Muzzleflash3.png
+  artifactKey: Guid(729dd7a288cc6af4cac0edf25f4af631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Effects/Muzzleflash3.png using Guid(729dd7a288cc6af4cac0edf25f4af631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6ab36184424d0546f791357ea269cb') in 0.028812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Platforms/Platform_Blue.png
+  artifactKey: Guid(ab30a5ba8bf22d24686375e484b073e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Platforms/Platform_Blue.png using Guid(ab30a5ba8bf22d24686375e484b073e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1def6c5df8074e47e2409f1a9364693') in 0.028682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Platforms/Platform_Vertical_Wood_Small.png
+  artifactKey: Guid(8fa71125fb47e764db3eaad0cd306d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Platforms/Platform_Vertical_Wood_Small.png using Guid(8fa71125fb47e764db3eaad0cd306d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08194bb4abf14e1401873473a5eaab10') in 0.026851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Potatoes_Done.png
+  artifactKey: Guid(3d9791791d28a9745b616ce8d8113662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Potatoes_Done.png using Guid(3d9791791d28a9745b616ce8d8113662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7660bba8ddb635e94d89965b5576a424') in 0.026234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Potatoes_Seed.png
+  artifactKey: Guid(a402c3ecefb2ea44abb2dc8fef3e46d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Potatoes_Seed.png using Guid(a402c3ecefb2ea44abb2dc8fef3e46d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958c8e530f9cd924e36fa51f17013d30') in 0.023193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Arcade/Spawn.png
+  artifactKey: Guid(d5983714f6e6d7240a55fc92c9d26e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Arcade/Spawn.png using Guid(d5983714f6e6d7240a55fc92c9d26e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b553d4119b530c2bfdfbf888063e4055') in 0.025585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Characters/Stickman/Stick_Chest.png
+  artifactKey: Guid(9b1dc92ba75b1064ebcd3af579848e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Characters/Stickman/Stick_Chest.png using Guid(9b1dc92ba75b1064ebcd3af579848e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f43006aa8dd5a69a0165efcb1d88185') in 0.031068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/Sword.png
+  artifactKey: Guid(b2f3327f47464544293b6b9018e1296e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/Sword.png using Guid(b2f3327f47464544293b6b9018e1296e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ccfd0f330592b369046084769220a6') in 0.027181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Strawberries_Seed.png
+  artifactKey: Guid(0ab91e9d95a123540a91a4bdf095faf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Strawberries_Seed.png using Guid(0ab91e9d95a123540a91a4bdf095faf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c8236f9b7bb3ca3ac09c249062bcad') in 0.028289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Arcade/Turret.png
+  artifactKey: Guid(ff077b6594b804447ab32c9b3b40f584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Arcade/Turret.png using Guid(ff077b6594b804447ab32c9b3b40f584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10515f9d2a8ed373094c505b674cb244') in 0.031192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Food/Noodles_Done.png
+  artifactKey: Guid(67d91650448db8d4f8c2761c114467a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Food/Noodles_Done.png using Guid(67d91650448db8d4f8c2761c114467a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab768ad8f12b2411abebf05cd787d510') in 0.023812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Gold Miner/Phone.png
+  artifactKey: Guid(ab13573ac7c44714d9eee118f1c540d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Gold Miner/Phone.png using Guid(ab13573ac7c44714d9eee118f1c540d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2f2e4b9e10346264c766e34da7dc6d') in 0.028711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Effects/Muzzleflash2.png
+  artifactKey: Guid(8dc86788c2b5b6f4c8c37280a947161a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Effects/Muzzleflash2.png using Guid(8dc86788c2b5b6f4c8c37280a947161a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc874a522d221a213847c9fb322505ee') in 0.024116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Pumpkin_Dead.png
+  artifactKey: Guid(157cb9b2c093a584fba187ec8d423718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Pumpkin_Dead.png using Guid(157cb9b2c093a584fba187ec8d423718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36d3224d5168d4e78adfdc3c8fbc9b4') in 0.026484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/WateringCan.png
+  artifactKey: Guid(8dfb7eb4494cbe14eabf0fda5056d27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/WateringCan.png using Guid(8dfb7eb4494cbe14eabf0fda5056d27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bce16a41cd4d0aee51192d2be1eb00') in 0.038222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Shapes/X.png
+  artifactKey: Guid(b077818db7df77e4db729d473295e99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Shapes/X.png using Guid(b077818db7df77e4db729d473295e99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2b9b5348d63df8c7b23bd70e6476ec') in 0.034051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/UI/Cursors/YellowCursor.png
+  artifactKey: Guid(f6c447868c4916746aba134404e3b985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/UI/Cursors/YellowCursor.png using Guid(f6c447868c4916746aba134404e3b985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5614a76d94c57d9c9b145df57cd21daa') in 0.035632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
   path: Assets/Sprites/Brackeys/2D Mega Pack/-- Example Photos --/Stick Figure Example.png
   artifactKey: Guid(53957bfc90a783f4690ebf0afa8a713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Brackeys/2D Mega Pack/-- Example Photos --/Stick Figure Example.png using Guid(53957bfc90a783f4690ebf0afa8a713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f9ceda42be11af50b6de39fdcbec0f') in 0.109278 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/-- Example Photos --/Stick Figure Example.png using Guid(53957bfc90a783f4690ebf0afa8a713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b194635ab32ca34c1dc80f4dbeb26c9d') in 0.170396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Farming/TrashCan.png
+  artifactKey: Guid(5f29f64548d98f64893d01b0b4c02f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Farming/TrashCan.png using Guid(5f29f64548d98f64893d01b0b4c02f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a6bfcb21c157b8be751f24a985c714') in 0.023471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/Staff.png
+  artifactKey: Guid(3aa1cb26afcdc244bb3a95c193575ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/Staff.png using Guid(3aa1cb26afcdc244bb3a95c193575ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43ab04875ccb3ced83ff406e445ead1') in 0.022500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Seed.png
+  artifactKey: Guid(9b93b28672c3b5648a8e4701a14a1945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Seed.png using Guid(9b93b28672c3b5648a8e4701a14a1945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0b83bbd5f9a7966bcdd32c6c5077c2') in 0.027585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Platforms/Platform_Uncolored.png
+  artifactKey: Guid(d58df5b5e36ba884f9c288a3020d48af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Platforms/Platform_Uncolored.png using Guid(d58df5b5e36ba884f9c288a3020d48af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7c2865aedae65d7094ca80937b50b2') in 0.027613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Food/Noodles_Dead.png
+  artifactKey: Guid(1fc7d2784f39bca4e9158ea31427d79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Food/Noodles_Dead.png using Guid(1fc7d2784f39bca4e9158ea31427d79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c4776536e9abcea9988344370e4b6c') in 0.023276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Shapes/Ring.png
+  artifactKey: Guid(f7aaa971d41e8a447afd2674b898bd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Shapes/Ring.png using Guid(f7aaa971d41e8a447afd2674b898bd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea32eed8ad5ec5ac1561cc9211fc5c9') in 0.023311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Gothic/SoulFragment.png
+  artifactKey: Guid(ec6b13a5ffa52bc45b7eeb8e5f69c6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Gothic/SoulFragment.png using Guid(ec6b13a5ffa52bc45b7eeb8e5f69c6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483d2af346220e67b0b22be5ca2b6090') in 0.024352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Platforms/Platform_Pink.png
+  artifactKey: Guid(4bdcafa0e50338d41ae14a25a337e16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Platforms/Platform_Pink.png using Guid(4bdcafa0e50338d41ae14a25a337e16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda53f45406c140c23ff0dd1096dde40') in 0.023742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Platforms/Platform_Wood_Wide.png
+  artifactKey: Guid(93aacd30e6870dc45a5dcafc2d1b3414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Platforms/Platform_Wood_Wide.png using Guid(93aacd30e6870dc45a5dcafc2d1b3414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c69ccbfa60f543684ebca28e2c3443b') in 0.027037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Pumpkin_Seed.png
+  artifactKey: Guid(8458ef58f3466354d80d3988eb70647c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Pumpkin_Seed.png using Guid(8458ef58f3466354d80d3988eb70647c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f50013db07e4b6f1e4703776926552') in 0.029989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Gold Miner/Tape.png
+  artifactKey: Guid(40c498d119203b24f871fd46978c7b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Gold Miner/Tape.png using Guid(40c498d119203b24f871fd46978c7b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c7a42cd7b383153ee3aa1d1c19a49b') in 0.025183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Pumpkin_Done.png
+  artifactKey: Guid(b398f31984f975d439ad74fd48570d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Pumpkin_Done.png using Guid(b398f31984f975d439ad74fd48570d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e72e0ab0954a9618998b0abd6fe936') in 0.025718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Strawberries_Done.png
+  artifactKey: Guid(72dee83beb5760f49ae1ee546c10eb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Strawberries_Done.png using Guid(72dee83beb5760f49ae1ee546c10eb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f909797498d22e1f9a63c6d0eaabf4') in 0.022909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Platforms/Platform_Vertical_Uncolored.png
+  artifactKey: Guid(0ddf619ff096ada469471c932a6d03d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Platforms/Platform_Vertical_Uncolored.png using Guid(0ddf619ff096ada469471c932a6d03d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a2d9fbf7c1d9f7589dc217859a8616') in 0.025398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Platforms/Platform_Blue_Wide.png
+  artifactKey: Guid(c76f47f717e792941b9c97541a3a1ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Platforms/Platform_Blue_Wide.png using Guid(c76f47f717e792941b9c97541a3a1ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8a39e230098b82dab040b233cb7769') in 0.025645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Characters/Stickman/Stick_Limb.png
+  artifactKey: Guid(f34bece99f09dad4e8002e10e7eb9a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Characters/Stickman/Stick_Limb.png using Guid(f34bece99f09dad4e8002e10e7eb9a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e28790376956f28aa99151031f24d9') in 0.038438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Platforms/Platform_Outline.png
+  artifactKey: Guid(662d1569d83ae68469880e52c5214ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Platforms/Platform_Outline.png using Guid(662d1569d83ae68469880e52c5214ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e949ef0df9daa0cf60a60282f9eec1') in 0.022857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Food/Pizza_Done.png
+  artifactKey: Guid(c5efe437a3425564a9021a187d541e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Food/Pizza_Done.png using Guid(c5efe437a3425564a9021a187d541e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762bdff6175f840d492ad44187bfbaae') in 0.025358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Food/Pizza_Dead.png
+  artifactKey: Guid(3dc9277b4d7254c4bb24a43248eea086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Food/Pizza_Dead.png using Guid(3dc9277b4d7254c4bb24a43248eea086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd8eb22f1a55f1ec079e30a2bcd05af') in 0.022443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Shapes/Triangle.png
+  artifactKey: Guid(1853af91c4d184747801f42772136f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Shapes/Triangle.png using Guid(1853af91c4d184747801f42772136f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beeabce528228576b40ace50c18059c4') in 0.024617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Shapes/Square.png
+  artifactKey: Guid(6858813d0f1f28b4cafee677b3e2e49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Shapes/Square.png using Guid(6858813d0f1f28b4cafee677b3e2e49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4140fe7cd5e5443879d3b4f6ac32729e') in 0.025632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Strawberries_Dead.png
+  artifactKey: Guid(c5f12c5adb77b024cac679026c500fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Crops/Strawberries_Dead.png using Guid(c5f12c5adb77b024cac679026c500fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b7d18f90fd7c148a4cf1e57d89e982') in 0.025974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Vegetation/Grass1.png
+  artifactKey: Guid(edc14a86877cec2468c4b68b83ce0875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Food & Plants/Vegetation/Grass1.png using Guid(edc14a86877cec2468c4b68b83ce0875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d60c2d904f47bcdebd17610ae9398b') in 0.024896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Gothic/GothicEnemy03.png
+  artifactKey: Guid(d064385dfce29934793208022539c6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Gothic/GothicEnemy03.png using Guid(d064385dfce29934793208022539c6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881e2596c03706507278341298ec367d') in 0.046448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Shapes/Diamond.png
+  artifactKey: Guid(37616095ebf53744c950962f33663458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Shapes/Diamond.png using Guid(37616095ebf53744c950962f33663458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd954a9fe5c53169116a5d98833d64828') in 0.024472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Effects/Fireball.png
+  artifactKey: Guid(5ff9fd1dfa3921644a587a08e82b9e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Effects/Fireball.png using Guid(5ff9fd1dfa3921644a587a08e82b9e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f0ae0fc3bbe68b0394c4992ac3ed34') in 0.030040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Gold Miner/Diamond.png
+  artifactKey: Guid(d9c7df35c6600dd42b897ce1d9ae898b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Gold Miner/Diamond.png using Guid(d9c7df35c6600dd42b897ce1d9ae898b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880d1a9b98de3f1acdb64f9efe283bfe') in 0.022117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Farming/DirtRow.png
+  artifactKey: Guid(58990ff17db16224eb6d25d150205554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Farming/DirtRow.png using Guid(58990ff17db16224eb6d25d150205554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05516cb99da345e57d2f467bcaf246f0') in 0.025132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Farming/Dirt_Left.png
+  artifactKey: Guid(4b3d667bcfe137e4bac8ca33c38cf267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Farming/Dirt_Left.png using Guid(4b3d667bcfe137e4bac8ca33c38cf267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a423a019a7769c39d0865a5617c52c') in 0.024002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Environment/Farming/Dirt_Mid.png
+  artifactKey: Guid(cdd3802b2839b31409430e4f03c49fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Environment/Farming/Dirt_Mid.png using Guid(cdd3802b2839b31409430e4f03c49fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edaab136c171c5dab5665568387cfa9f') in 0.025944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Cute/DinnerTable.png
+  artifactKey: Guid(e11c6e74230e7c840a3fbcf8989cb499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Cute/DinnerTable.png using Guid(e11c6e74230e7c840a3fbcf8989cb499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49be9a43f7770183f5be232bd9bc133') in 0.026819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.556155 seconds.
+  path: Assets/Sprites/Enemies/monsters_0_0.asset
+  artifactKey: Guid(c470c1300bf141b43b8f886579877a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/monsters_0_0.asset using Guid(c470c1300bf141b43b8f886579877a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a45f7155305aed8ef04ba185c4f2e9') in 0.012238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/Enemies/monsters_0_24.asset
+  artifactKey: Guid(9eac7294d7bc213448510af4c32b026a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/monsters_0_24.asset using Guid(9eac7294d7bc213448510af4c32b026a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24ee476e43612a9e3512d0ddc9a738e') in 0.014868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Enemies/monsters_0_25.asset
+  artifactKey: Guid(bbbdab2455420c74baaa25dfcba74af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/monsters_0_25.asset using Guid(bbbdab2455420c74baaa25dfcba74af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e90bfc9c5b2fdda5e4873287b9b97f7') in 0.012356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Enemies/monsters_0_26.asset
+  artifactKey: Guid(4987e82c7416596478c6e2703911e42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/monsters_0_26.asset using Guid(4987e82c7416596478c6e2703911e42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e4dae56ef3a86118a9c2339ae786d6') in 0.008581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Enemies/monsters_0_36.asset
+  artifactKey: Guid(396536d1fb95e8c438adcc9931360f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/monsters_0_36.asset using Guid(396536d1fb95e8c438adcc9931360f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f556fcafa0a56185fc3fc3867b6180f') in 0.012966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.528893 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Gothic
+  artifactKey: Guid(2bd86c1f86be261418f7f4fa2d5d629c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Gothic using Guid(2bd86c1f86be261418f7f4fa2d5d629c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870f1e8a99e7b42dec6fcc00881be71b') in 0.009883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.660945 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Insects/Animation/Beetle
+  artifactKey: Guid(1dc68bfd28f8bd546ace7021de984a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Insects/Animation/Beetle using Guid(1dc68bfd28f8bd546ace7021de984a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b37e1fae3d988de91e50626467ea42') in 0.010238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.226705 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Insects/Animation/Beetle/Beetle.anim
+  artifactKey: Guid(4acda9502d8223241a7182a5ad5fcad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Insects/Animation/Beetle/Beetle.anim using Guid(4acda9502d8223241a7182a5ad5fcad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0970348074e83d6d200b71ea832a42') in 0.003042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.714601 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Gothic/GothicEnemy01.png
+  artifactKey: Guid(0430600dfe1dcf246b1f1324fe8be4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Enemies/Gothic/GothicEnemy01.png using Guid(0430600dfe1dcf246b1f1324fe8be4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22ed930e78d4e2d71de59448ef2fd98') in 0.031028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 242.223463 seconds.
+  path: Assets/Sprites/Monsters pack
+  artifactKey: Guid(06ef47e739ab1f14398ea1d25c87d1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack using Guid(06ef47e739ab1f14398ea1d25c87d1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00de69554234269b9ca18eac926005b') in 0.007244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.068491 seconds.
+  path: Assets/Sprites/Monsters pack/Animations
+  artifactKey: Guid(9fafa993a2d628e409a702a7b2751811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Animations using Guid(9fafa993a2d628e409a702a7b2751811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e29156f0c0712ab98c036800682ce83') in 0.002694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.480048 seconds.
+  path: Assets/Sprites/Monsters pack/Sprites
+  artifactKey: Guid(85cb5e3eb2753c14babd63f8272fdfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Sprites using Guid(85cb5e3eb2753c14babd63f8272fdfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b09bd6ed447a295736e76d67bceffec') in 0.006261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.076578 seconds.
+  path: Assets/Sprites/Monsters pack/Sprites/Free Sprites 1x.png
+  artifactKey: Guid(41da38fcd47014e4d84ad32f4ddd8f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Sprites/Free Sprites 1x.png using Guid(41da38fcd47014e4d84ad32f4ddd8f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58120af7137ec1a291f40e1e3dcdb312') in 0.026906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Monsters pack/Sprites/Free Sprites 4x.png
+  artifactKey: Guid(86e021df2c390774695a78ca71f90b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Sprites/Free Sprites 4x.png using Guid(86e021df2c390774695a78ca71f90b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ee855bebefaca5cf09101309151f33') in 0.037429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 86.048584 seconds.
+  path: Assets/Sprites/Monsters pack/Sprites/Free Sprites 4x.png
+  artifactKey: Guid(86e021df2c390774695a78ca71f90b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Sprites/Free Sprites 4x.png using Guid(86e021df2c390774695a78ca71f90b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7181415b1d156e7be4796989383ce4') in 0.013134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.431512 seconds.
+  path: Assets/Sprites/Monsters pack/Sprites/Free Sprites 4x.png
+  artifactKey: Guid(86e021df2c390774695a78ca71f90b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Sprites/Free Sprites 4x.png using Guid(86e021df2c390774695a78ca71f90b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04208a13172d833587a2f18091f9395') in 0.087322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.346003 seconds.
+  path: Assets/Sprites/Monsters pack/Animations/Bloodshot Eye
+  artifactKey: Guid(a05e1dab49d8a1145b01fb78bf8132e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Animations/Bloodshot Eye using Guid(a05e1dab49d8a1145b01fb78bf8132e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91848017fa4eab9d9561142f8826c079') in 0.007923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051794 seconds.
+  path: Assets/Sprites/Monsters pack/Animations/Bloodshot Eye/BloodshotEyeIdleSide.gif
+  artifactKey: Guid(23e0cde221b884b4b9fc8c7b45ebdad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Animations/Bloodshot Eye/BloodshotEyeIdleSide.gif using Guid(23e0cde221b884b4b9fc8c7b45ebdad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a8ffadcf5de76dd81e5e8b4c7122d3') in 0.019341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.133447 seconds.
+  path: Assets/Sprites/Monsters pack/Animations/Clawing Harpy
+  artifactKey: Guid(aa16c635ae745984397c808d3b4a80a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Animations/Clawing Harpy using Guid(aa16c635ae745984397c808d3b4a80a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2d040d77dc48a157e85937faefceca') in 0.007286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.070390 seconds.
+  path: Assets/Sprites/Monsters pack/Animations/Clawing Harpy/ClawingHarpyIdleSide.gif
+  artifactKey: Guid(627c84bcab8293449b0c6a106e6950cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Animations/Clawing Harpy/ClawingHarpyIdleSide.gif using Guid(627c84bcab8293449b0c6a106e6950cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655a8f24e0f08ccd51a4d8914850e564') in 0.037871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.027037 seconds.
+  path: Assets/Sprites/Monsters pack/Animations/Crushing Cyclops
+  artifactKey: Guid(d3aa8c6790af43344b80ef7ff7a20ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Animations/Crushing Cyclops using Guid(d3aa8c6790af43344b80ef7ff7a20ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cc3cfa1398ef3783c91bfb370cb326') in 0.007121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057520 seconds.
+  path: Assets/Sprites/Monsters pack/Animations/Crushing Cyclops/CrushingCyclopsIdleSide.gif
+  artifactKey: Guid(5238e32c34feddf41b192debcbe696d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Animations/Crushing Cyclops/CrushingCyclopsIdleSide.gif using Guid(5238e32c34feddf41b192debcbe696d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0f7239e26c6b4fff9fac944f9a1e74') in 0.050565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.721689 seconds.
+  path: Assets/Sprites/Monsters pack/Animations/Death Slime
+  artifactKey: Guid(b6ced98de1b3af7438d49fa56ad90ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Animations/Death Slime using Guid(b6ced98de1b3af7438d49fa56ad90ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0478afe24b45d3165600c7241e6dec39') in 0.006786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051900 seconds.
+  path: Assets/Sprites/Monsters pack/Animations/Death Slime/DeathSlimeIdleSide.gif
+  artifactKey: Guid(31356cc525ab41b41955cde3cc158ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Animations/Death Slime/DeathSlimeIdleSide.gif using Guid(31356cc525ab41b41955cde3cc158ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca8dcecc1f7bb14b617addc30f9e063') in 0.023129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.052944 seconds.
+  path: Assets/Sprites/Monsters pack/Animations/Death Slime/DeathSlimeIdleSide.aseprite
+  artifactKey: Guid(4e1ee748f40427042a88a626f38675ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Animations/Death Slime/DeathSlimeIdleSide.aseprite using Guid(4e1ee748f40427042a88a626f38675ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8d3de23e892e119f35efa34448ae89') in 0.004203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.462111 seconds.
+  path: Assets/Sprites/Monsters pack/Animations/Death Slime/DeathSlimeIdleSide.png
+  artifactKey: Guid(0a73645d073d4f846a223613f224ddb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Animations/Death Slime/DeathSlimeIdleSide.png using Guid(0a73645d073d4f846a223613f224ddb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0871a92dfe26ccd1abf6fb300a84a353') in 0.012130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.461941 seconds.
+  path: Assets/Sprites/Monsters pack/Animations/Death Slime/DeathSlimeIdleSide.gif
+  artifactKey: Guid(31356cc525ab41b41955cde3cc158ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Animations/Death Slime/DeathSlimeIdleSide.gif using Guid(31356cc525ab41b41955cde3cc158ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c76dd6182bd14f912cc66f266ba686') in 0.016876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.856904 seconds.
+  path: Assets/Sprites/Monsters pack/Animations/Death Slime/DeathSlimeIdleSide.png
+  artifactKey: Guid(0a73645d073d4f846a223613f224ddb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Animations/Death Slime/DeathSlimeIdleSide.png using Guid(0a73645d073d4f846a223613f224ddb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9544e2341dbc6ef932de02bfa39e87d') in 0.011409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.586177 seconds.
+  path: Assets/Sprites/Monsters pack/Animations/Death Slime/DeathSlimeIdleSide.png
+  artifactKey: Guid(0a73645d073d4f846a223613f224ddb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Animations/Death Slime/DeathSlimeIdleSide.png using Guid(0a73645d073d4f846a223613f224ddb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1898b087733eb099c81a52c86cbfc2be') in 0.025138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.251371 seconds.
+  path: Assets/Animations/Idle.anim
+  artifactKey: Guid(4a7014e231000b74ba6048c3d598857d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Idle.anim using Guid(4a7014e231000b74ba6048c3d598857d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7edf89fe120deacb38cf65d46f5bd45') in 0.003067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.055927 seconds.
+  path: Assets/Animations/Jump.anim
+  artifactKey: Guid(90d40f70119ddac49a6bae14d9c7cd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jump.anim using Guid(90d40f70119ddac49a6bae14d9c7cd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de46d49d77e8dbc9ed7deba1ddb61147') in 0.002913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.781502 seconds.
+  path: Assets/Animations/EnemySlime.controller
+  artifactKey: Guid(794d7b65b0121bc408c5c9760968f502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemySlime.controller using Guid(794d7b65b0121bc408c5c9760968f502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac5288be876891c412af6bfaeea47f7') in 0.007203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.390221 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/-- Example Photos --/Gold Miner Example.png
+  artifactKey: Guid(0eee6b3f41fb0134d80930957ef67fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/-- Example Photos --/Gold Miner Example.png using Guid(0eee6b3f41fb0134d80930957ef67fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b953a7eeb93c83f145c46fe547bfa605') in 0.192489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.204809 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Gold Miner/Gold01.png
+  artifactKey: Guid(87850260d0f08224e887e1c55590c081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Items & Icons/Gold Miner/Gold01.png using Guid(87850260d0f08224e887e1c55590c081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a3b068ff269ea83a5e51f698e16f19') in 0.028463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.616790 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/FishingRod.png
+  artifactKey: Guid(1959adfdc5c338840858eec9307f0184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/FishingRod.png using Guid(1959adfdc5c338840858eec9307f0184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333b238b6f23e11dadf20af02bbc98f8') in 0.027944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 110.449198 seconds.
+  path: Assets/Sprites/Monsters pack/Animations/Death Slime/DeathSlimeIdleSide.png
+  artifactKey: Guid(0a73645d073d4f846a223613f224ddb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Animations/Death Slime/DeathSlimeIdleSide.png using Guid(0a73645d073d4f846a223613f224ddb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e5ccee6c88f1d99c3f5b74ad425bd6') in 0.024089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.110530 seconds.
+  path: Assets/Sprites/Monsters pack/Animations/Death Slime/DeathSlimeIdleSide.png
+  artifactKey: Guid(0a73645d073d4f846a223613f224ddb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monsters pack/Animations/Death Slime/DeathSlimeIdleSide.png using Guid(0a73645d073d4f846a223613f224ddb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b313e5290340ae62d8628574206c5d4') in 0.025140 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008923 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yngve\Documents\GitHub\unity-game\TPD4168 Spilldesign Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yngve\Documents\GitHub\unity-game\TPD4168 Spilldesign Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.257 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1258ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (952ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (437ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4784.
+Memory consumption went from 156.2 MB to 156.2 MB.
+Total: 4.301200 ms (FindLiveObjects: 0.370100 ms CreateObjectMapping: 0.111300 ms MarkObjects: 3.775200 ms  DeleteObjects: 0.043400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009012 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yngve\Documents\GitHub\unity-game\TPD4168 Spilldesign Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Yngve\Documents\GitHub\unity-game\TPD4168 Spilldesign Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.236 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1237ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (964ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (433ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4787.
+Memory consumption went from 156.2 MB to 156.2 MB.
+Total: 4.072600 ms (FindLiveObjects: 0.394800 ms CreateObjectMapping: 0.112700 ms MarkObjects: 3.527400 ms  DeleteObjects: 0.036400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
