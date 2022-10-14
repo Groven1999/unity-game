@@ -1,27 +1,35 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.Burst.CompilerServices;
 using UnityEngine;
 
 public class Player_Wik_Movement : MonoBehaviour
 {
 
-    private Rigidbody2D body;
     [SerializeField] private GameObject player_Strong_firePoint;
     [SerializeField] private GameObject player_Strong;
+    public Rigidbody2D body;
     private bool isPickedUp;
-    private bool isThrown;
-    private Vector2 targetPosition;
-    private float throwSpeed;
+    public bool isThrown;
+    public Vector2 targetPosition;
+
+    // Movement speed
+    public float movementSpeed;
+
+
+    private void Start()
+    {
+        // Ignore collision with enemies
+        GameObject enemy_beetle = GameObject.FindGameObjectWithTag("Enemy_Beetle");
+        Physics2D.IgnoreCollision(enemy_beetle.GetComponent<BoxCollider2D>(), gameObject.GetComponent<BoxCollider2D>());
+    }
 
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
-        isPickedUp = false;
+        pickedUp(false);
     }
 
     private void Update()
     {
+
         if (isPickedUp)
         {
             // Updates the POSITION whenever Wik gets picked up by Strong
@@ -30,53 +38,36 @@ public class Player_Wik_Movement : MonoBehaviour
             // Updates the ROTATION when picked up
             transform.rotation = Quaternion.Euler(0, 0, player_Strong.transform.rotation.eulerAngles.z);
         }
+    }
 
-        if (isThrown)
-            if (throwSpeed > 0)
-            {
-                throwSpeed -= Random.Range(.01f, .02f);
-                transform.position = Vector2.MoveTowards(transform.position, targetPosition, throwSpeed * Time.deltaTime);
-            }
-            else
-            {
-                // Stop movement
-                isThrown = false;
-                body.velocity = Vector2.zero;
-            }
+    private void FixedUpdate()
+    {
+        // If Strong throws Wik
+        if (isThrown) {  
+            transform.position = Vector2.MoveTowards(transform.position, targetPosition, Time.deltaTime * movementSpeed);
+        }
     }
 
     public void SetDirection(float rotation)
     {
-
         body.rotation = rotation + 90;
-
-        //boxCollider.enabled = true;
     }
 
     public void pickedUp(bool _isPickedUp)
     {
         isPickedUp = _isPickedUp;
-        
-        if (_isPickedUp)
-        {
-            throwSpeed = 10;
-        }
-    }
 
-    public void Throw(Vector2 _targetPosition)
-    {
-        targetPosition = _targetPosition;
-        isThrown = true;
-        pickedUp(false);
+        // Ignore collision with player Strong
+        GameObject playerStrong = GameObject.FindGameObjectWithTag("Player_Strong");
+        Physics2D.IgnoreCollision(playerStrong.GetComponent<BoxCollider2D>(), gameObject.GetComponent<BoxCollider2D>(), _isPickedUp);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Wall")
+        if (collision.gameObject.tag == "Wall" || collision.gameObject.tag == "Enemy_Beetle")
         {
-            throwSpeed = 0;
-            print("he");
-
+            movementSpeed = 0;
+            body.velocity = Vector2.zero;
         }
     }
 }

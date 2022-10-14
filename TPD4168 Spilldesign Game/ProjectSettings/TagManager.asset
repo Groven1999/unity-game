@@ -7,6 +7,10 @@ TagManager:
   - Player_Strong
   - Player_Wik
   - Wall
+  - Bomb
+  - Enemy_Beetle
+  - Player_Strong_ThrowPoint
+  - Player_Strong_ThrowPointDir
   layers:
   - Default
   - TransparentFX
@@ -50,6 +54,12 @@ TagManager:
   - name: Walls
     uniqueID: 1000220749
     locked: 0
+  - name: Enemy
+    uniqueID: 3187762453
+    locked: 0
   - name: Player
     uniqueID: 385191711
+    locked: 0
+  - name: Ability
+    uniqueID: 3142040769
     locked: 0
