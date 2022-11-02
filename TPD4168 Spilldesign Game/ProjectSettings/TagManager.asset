@@ -11,6 +11,8 @@ TagManager:
   - Enemy_Beetle
   - Player_Strong_ThrowPoint
   - Player_Strong_ThrowPointDir
+  - Ability_Bomb
+  - Ability_LeapSmash
   layers:
   - Default
   - TransparentFX

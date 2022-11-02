@@ -11,15 +11,17 @@ public class ThrowWik : Ability {
         GameObject playerWik = GameObject.FindGameObjectWithTag("Player_Wik");
         Player_Wik_Movement wikMovementScript = playerWik.GetComponent<Player_Wik_Movement>();
 
-        // Find target position: where Wik is going to land
-        Vector2 targetPosition = GameObject.FindGameObjectWithTag("Player_Strong_ThrowPointDir").transform.position;
-        
-        movementSpeed = Vector2.Distance(targetPosition, playerWik.transform.position / activeTime);
+        if (wikMovementScript.isPickedUp == true) {
+            // Find target position: where Wik is going to land
+            Vector2 targetPosition = GameObject.FindGameObjectWithTag("Player_Strong_ThrowPointDir").transform.position;
 
-        wikMovementScript.movementSpeed = movementSpeed;
-        wikMovementScript.isThrown = true;
-        wikMovementScript.pickedUp(false);
-        wikMovementScript.targetPosition = targetPosition;
+            movementSpeed = Vector2.Distance(targetPosition, playerWik.transform.position / activeTime);
+
+            wikMovementScript.movementSpeed = movementSpeed;
+            wikMovementScript.isThrown = true;
+            wikMovementScript.pickedUp(false);
+            wikMovementScript.targetPosition = targetPosition;
+        }
     }
 
     public override void BeginCooldown(GameObject parent) {

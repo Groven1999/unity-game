@@ -6,7 +6,7 @@ public class Player_Wik_Movement : MonoBehaviour
     [SerializeField] private GameObject player_Strong_firePoint;
     [SerializeField] private GameObject player_Strong;
     public Rigidbody2D body;
-    private bool isPickedUp;
+    public bool isPickedUp;
     public bool isThrown;
     public Vector2 targetPosition;
 
@@ -17,8 +17,8 @@ public class Player_Wik_Movement : MonoBehaviour
     private void Start()
     {
         // Ignore collision with enemies
-        GameObject enemy_beetle = GameObject.FindGameObjectWithTag("Enemy_Beetle");
-        Physics2D.IgnoreCollision(enemy_beetle.GetComponent<BoxCollider2D>(), gameObject.GetComponent<BoxCollider2D>());
+        //GameObject enemy_beetle = GameObject.FindGameObjectWithTag("Enemy_Beetle");
+        //Physics2D.IgnoreCollision(enemy_beetle.GetComponent<BoxCollider2D>(), gameObject.GetComponent<BoxCollider2D>());
     }
 
     private void Awake()

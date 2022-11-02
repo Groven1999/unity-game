@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AbilityHolder : MonoBehaviour
@@ -51,8 +49,20 @@ public class AbilityHolder : MonoBehaviour
                 }
                 break;
         }
+    }
 
-        
+    public float getCooldownTime() {
+        return cooldownTime;
+    }
+
+    public string getAbilityState() {
+        if (state == AbilityState.ready) {
+            return("ready");
+        } else if (state == AbilityState.active) {
+            return ("active");
+        } else {
+            return ("cooldown");
+        }
     }
 
 }

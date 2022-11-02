@@ -25,12 +25,6 @@ public class BeetleMovement : MonoBehaviour
         RotateTowardsTarget(playerStrong);
     }
 
-    public void isKilled()
-    {
-        Vector3 screenPosition = Camera.main.ScreenToWorldPoint(new Vector3(Random.Range(0, Screen.width), Random.Range(0, Screen.height), Camera.main.farClipPlane / 2));
-        transform.position = screenPosition;
-    }
-
     private void RotateTowardsTarget(GameObject target)
     {
         var offset = -90f;
