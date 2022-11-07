@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Ability : ScriptableObject
@@ -10,4 +11,7 @@ public class Ability : ScriptableObject
     public virtual void Activate(GameObject parent) {}
     public virtual void BeginCooldown(GameObject parent) {}
 
+    public virtual bool CanUse(GameObject parent) { return false; }
+
+    public virtual bool IsAbilityFinished(GameObject parent) { return false; }
 }

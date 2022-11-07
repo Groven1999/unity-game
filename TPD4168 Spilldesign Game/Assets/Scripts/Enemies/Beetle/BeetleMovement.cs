@@ -1,7 +1,4 @@
-using System.Collections;
 using UnityEngine;
-using static TMPro.SpriteAssetUtilities.TexturePacker_JsonArray;
-using static UnityEngine.GraphicsBuffer;
 
 public class BeetleMovement : MonoBehaviour
 {

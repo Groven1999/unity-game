@@ -8,17 +8,16 @@ public class Player_Wik_Movement : MonoBehaviour
     public Rigidbody2D body;
     public bool isPickedUp;
     public bool isThrown;
+    public bool isRetracted;
     public Vector2 targetPosition;
 
     // Movement speed
+    public float baseMovementSpeed;
     public float movementSpeed;
-
 
     private void Start()
     {
-        // Ignore collision with enemies
-        //GameObject enemy_beetle = GameObject.FindGameObjectWithTag("Enemy_Beetle");
-        //Physics2D.IgnoreCollision(enemy_beetle.GetComponent<BoxCollider2D>(), gameObject.GetComponent<BoxCollider2D>());
+        movementSpeed = baseMovementSpeed;
     }
 
     private void Awake()
@@ -29,7 +28,6 @@ public class Player_Wik_Movement : MonoBehaviour
 
     private void Update()
     {
-
         if (isPickedUp)
         {
             // Updates the POSITION whenever Wik gets picked up by Strong
@@ -42,9 +40,19 @@ public class Player_Wik_Movement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // If Strong throws Wik
-        if (isThrown) {  
+        // If Strong throws or retracts Wik
+        if (isThrown) {
+            isPickedUp = false;
+            movementSpeed = 5;
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, Time.deltaTime * movementSpeed);
+        } else if (isRetracted) {
+            // Ignore collision with enemies
+            //;
+            targetPosition = GameObject.FindGameObjectWithTag("Player_Strong").transform.position;
+            transform.position = Vector2.MoveTowards(transform.position, targetPosition, Time.deltaTime * movementSpeed);
+        } else {
+            movementSpeed = 0;
+            //Physics.IgnoreLayerCollision(6, 8, false);
         }
     }
 

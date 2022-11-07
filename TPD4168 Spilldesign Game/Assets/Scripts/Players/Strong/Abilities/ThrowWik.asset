@@ -15,4 +15,4 @@ MonoBehaviour:
   name: ThrowWik
   cooldownTime: 0
   activeTime: 1
-  movementSpeed: 4.407
+  movementSpeed: 5

@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: Bomb
   m_EditorClassIdentifier: 
   name: Bomb
-  cooldownTime: 1
+  cooldownTime: 2
   activeTime: 0.1
-  splashRange: 1.5
-  damage: 5
+  splashRange: 2
+  damage: 1
+  maxDistanceFromPlayerStrong: 10
+  knockbackDamage: 10
+  knockbackDuration: 0.5
+  cameraShake: {fileID: 0}
+  shakeDuration: 0.1
+  shakeMagnitude: 0.1

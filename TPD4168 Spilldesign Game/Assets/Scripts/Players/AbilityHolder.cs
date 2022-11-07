@@ -24,17 +24,18 @@ public class AbilityHolder : MonoBehaviour
         switch (state)
         {
             case AbilityState.ready:
-                if (Input.GetKey(key)) {
+                if (Input.GetKey(key) && ability.CanUse(gameObject)) {
                     ability.Activate(gameObject);
                     state = AbilityState.active;
                     activeTime = ability.activeTime;
                 }
                 break;
             case AbilityState.active:
-                if (activeTime > 0) {
+                if (activeTime > 0 && !ability.IsAbilityFinished(gameObject)) {
                     activeTime -= Time.deltaTime;
                 }
                 else {
+                    activeTime = 0;
                     ability.BeginCooldown(gameObject);
                     state = AbilityState.cooldown;
                     cooldownTime = ability.cooldownTime;

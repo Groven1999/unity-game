@@ -13,18 +13,24 @@ TagManager:
   - Player_Strong_ThrowPointDir
   - Ability_Bomb
   - Ability_LeapSmash
+  - FirePointEnemy
+  - RangedEnemy
+  - MainCameraHolder
+  - Ability_Retract
+  - AbilityPanel
+  - Enemy_Insect
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Floor
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Enemy
+  - Player Strong
+  - Player Wik
+  - Wall
+  - Projectile
   - 
   - 
   - 
@@ -56,12 +62,24 @@ TagManager:
   - name: Walls
     uniqueID: 1000220749
     locked: 0
+  - name: Pillar
+    uniqueID: 4082726595
+    locked: 0
   - name: Enemy
     uniqueID: 3187762453
     locked: 0
-  - name: Player
+  - name: Player Wik
+    uniqueID: 1352188765
+    locked: 0
+  - name: Projectile
+    uniqueID: 2114852489
+    locked: 0
+  - name: Player Strong
     uniqueID: 385191711
     locked: 0
   - name: Ability
     uniqueID: 3142040769
+    locked: 0
+  - name: HealthBar
+    uniqueID: 2804704735
     locked: 0

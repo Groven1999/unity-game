@@ -11,17 +11,12 @@ public class ThrowWik : Ability {
         GameObject playerWik = GameObject.FindGameObjectWithTag("Player_Wik");
         Player_Wik_Movement wikMovementScript = playerWik.GetComponent<Player_Wik_Movement>();
 
-        if (wikMovementScript.isPickedUp == true) {
-            // Find target position: where Wik is going to land
-            Vector2 targetPosition = GameObject.FindGameObjectWithTag("Player_Strong_ThrowPointDir").transform.position;
+        // Find target position: where Wik is going to land
+        Vector2 targetPosition = GameObject.FindGameObjectWithTag("Player_Strong_ThrowPointDir").transform.position;
 
-            movementSpeed = Vector2.Distance(targetPosition, playerWik.transform.position / activeTime);
-
-            wikMovementScript.movementSpeed = movementSpeed;
-            wikMovementScript.isThrown = true;
-            wikMovementScript.pickedUp(false);
-            wikMovementScript.targetPosition = targetPosition;
-        }
+        wikMovementScript.isThrown = true;
+        wikMovementScript.pickedUp(false);
+        wikMovementScript.targetPosition = targetPosition;
     }
 
     public override void BeginCooldown(GameObject parent) {
@@ -31,6 +26,13 @@ public class ThrowWik : Ability {
         wikMovementScript.movementSpeed = 0;
         wikMovementScript.isThrown = false;
         wikMovementScript.body.velocity = Vector2.zero;
+    }
 
+    public override bool CanUse(GameObject parent) {
+        return (GameObject.FindGameObjectWithTag("Player_Wik").GetComponent<Player_Wik_Movement>().isPickedUp == true);
+    }
+
+    public override bool IsAbilityFinished(GameObject parent) {
+        return false;
     }
 }

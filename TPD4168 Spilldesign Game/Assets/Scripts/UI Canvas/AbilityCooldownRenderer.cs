@@ -8,20 +8,24 @@ public class AbilityCooldownRenderer : MonoBehaviour
     [Header("Images")]
     [SerializeField] public Image bombImage;
     [SerializeField] public Image leapSmashImage;
+    [SerializeField] public Image retractImage;
 
     // Ability holders
     [Header("Ability holders")]
     [SerializeField] public AbilityHolder bombAbilityHolder;
     [SerializeField] public AbilityHolder leapSmashAbilityHolder;
+    [SerializeField] public AbilityHolder retractAbilityHolder;
 
     // Cooldown for the abilities
     private float bombCooldown;
     private float leapSmashCooldown;
+    private float retractCooldown;
 
     private void Start() {
         // Set cooldowns
         bombCooldown = bombAbilityHolder.ability.cooldownTime;
         leapSmashCooldown = leapSmashAbilityHolder.ability.cooldownTime;
+        retractCooldown = retractAbilityHolder.ability.cooldownTime;
     }
 
     // Update is called once per frame
@@ -49,6 +53,18 @@ public class AbilityCooldownRenderer : MonoBehaviour
             if (currentCooldownTime > 0) {
                 float fillAmount = 1 - (currentCooldownTime / leapSmashCooldown);
                 leapSmashImage.fillAmount = fillAmount;
+            }
+        }
+
+        // Retract
+        if (retractAbilityHolder.getAbilityState().Equals("ready")) {
+            retractImage.fillAmount = 1;
+        }
+        else if (retractAbilityHolder.getAbilityState().Equals("cooldown")) {
+            float currentCooldownTime = retractAbilityHolder.getCooldownTime();
+            if (currentCooldownTime > 0) {
+                float fillAmount = 1 - (currentCooldownTime / retractCooldown);
+                retractImage.fillAmount = fillAmount;
             }
         }
     }

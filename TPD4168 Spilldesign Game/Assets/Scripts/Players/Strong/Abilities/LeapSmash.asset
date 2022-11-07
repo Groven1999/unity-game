@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: LeapSmash
   m_EditorClassIdentifier: 
   name: LeapSmash
-  cooldownTime: 1
+  cooldownTime: 3
   activeTime: 1
-  leapSpeed: 5.3012347
+  leapSpeed: 8.524345
   splashRange: 3
   damage: 1
+  cameraShake: {fileID: 0}
+  shakeDuration: 0.5
+  shakeMagnitude: 0.1
+  knockbackDamage: 20
+  knockbackDuration: 0.7

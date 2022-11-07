@@ -18,7 +18,7 @@ TextureImporter:
       213: 21300008
     second: Explosion_4
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -78,9 +78,34 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -95,7 +120,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Explosion_0
+      name: ExplosionBrackeys_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_1
+      name: ExplosionBrackeys_1
       rect:
         serializedVersion: 2
         x: 8
@@ -137,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_2
+      name: ExplosionBrackeys_2
       rect:
         serializedVersion: 2
         x: 20
@@ -158,7 +183,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_3
+      name: ExplosionBrackeys_3
       rect:
         serializedVersion: 2
         x: 35
@@ -189,10 +214,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Explosion_1: 21300002
-      Explosion_2: 21300004
-      Explosion_0: 21300000
-      Explosion_3: 21300006
+      ExplosionBrackeys_0: 21300000
+      ExplosionBrackeys_1: 21300002
+      ExplosionBrackeys_2: 21300004
+      ExplosionBrackeys_3: 21300006
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

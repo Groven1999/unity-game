@@ -1,0 +1,13 @@
+Man starter med kun ThrowWik ability, og ikke Retract
+
+Wave 1: 4 pillars som må ødelegges. Rundt 3 av dem er det 4 enemies, rundt 1 er det 2 enemies. Ødeleggelse av 1 pillar gir deg nok xp til å unlocke bomb ability. 
+
+Wave 2: Ranged enemies introduced. 
+
+Wave 3: Her unlocker man leapsmash. Mappet blir delt i 2, og det er en svart gap imellom. Man må bruke leapsmash for å komme seg over. Men for å få leapsmash må man ta enemies på den ene halvdelen først.
+
+Wave 4: Chaos wave, spawn masse enemies i en sirkel rundt player
+
+Wave 5: Boss fight
+
+En av wavesene skal være chaos wave, da spawner det typ 40 enemies rundt deg i en sirkel. Her må man ha unlocka leapsmash og bomb for AOE damage

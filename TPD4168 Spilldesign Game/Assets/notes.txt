@@ -1,0 +1,5 @@
+--- HEALTH BAR (ENEMIES) ---
+
+Når man legger til Healthbar til en enemy:
+- Trykk på WorldSpaceHealthBar -> assign korresponderende enemy til "Enemy Object" parameter
+- Trykk på Enemy det gjelder (i hierarkiet) -> Assign "Health Bar" til "Health Bar" parameteret (dersom det ikke er gjort fra før)
