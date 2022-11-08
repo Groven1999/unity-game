@@ -20,6 +20,11 @@ public class LeapSmashAbility : Ability
     [SerializeField] public float knockbackDamage;
     [SerializeField] public float knockbackDuration;
 
+    [Header("Invulnerability")]
+    [SerializeField] private float invulnerabilityDuration;
+    [SerializeField] private int numberOfFlashes;
+
+
     public override void Activate(GameObject parent) {
 
         GameObject player_Wik = GameObject.FindGameObjectWithTag("Player_Wik");
@@ -59,6 +64,13 @@ public class LeapSmashAbility : Ability
                 enemyScript.TakeDamage(damage);
             }
         }
+
+        // Become Invulnerable for a brief moment
+        var playerStrongHealthScript = parent.GetComponent<Health>();
+        playerStrongHealthScript.StartCoroutine(playerStrongHealthScript.Invunerability(invulnerabilityDuration, numberOfFlashes, false));
+
+        // Explosion animation
+        parent.GetComponent<Animator>().SetTrigger("leapSmashExplosion");
 
         // Resets movement speed
         Player_Strong_Movement playerStrongMovement = parent.GetComponent<Player_Strong_Movement>();

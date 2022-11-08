@@ -15,11 +15,13 @@ MonoBehaviour:
   name: LeapSmash
   cooldownTime: 3
   activeTime: 1
-  leapSpeed: 8.524345
+  leapSpeed: 9.953603
   splashRange: 3
   damage: 1
   cameraShake: {fileID: 0}
   shakeDuration: 0.5
   shakeMagnitude: 0.1
-  knockbackDamage: 20
+  knockbackDamage: 40
   knockbackDuration: 0.7
+  invulnerabilityDuration: 0.6
+  numberOfFlashes: 0
