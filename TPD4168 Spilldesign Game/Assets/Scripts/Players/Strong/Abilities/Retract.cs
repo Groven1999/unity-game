@@ -6,6 +6,9 @@ public class Retract : Ability {
     public float retractSpeed;
 
     public override void Activate(GameObject parent) {
+
+        
+
         GameObject playerWik = GameObject.FindGameObjectWithTag("Player_Wik");
         Player_Wik_Movement wikMovementScript = playerWik.GetComponent<Player_Wik_Movement>();
         wikMovementScript.movementSpeed = retractSpeed;

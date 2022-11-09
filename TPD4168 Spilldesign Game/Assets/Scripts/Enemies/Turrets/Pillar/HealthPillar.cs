@@ -1,5 +1,6 @@
 using System.Collections;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class HealthPillar : MonoBehaviour
@@ -27,12 +28,14 @@ public class HealthPillar : MonoBehaviour
     [Header("UI Text")]
     public GameObject pillarsDestroyedText;
 
-    private void Start() {
-        pillarBottomanimator = GetComponent<Animator>();
-    }
-
     private void Awake() {
         currentHealth = startingHealth;
+        pillarsDestroyedText = GameObject.FindGameObjectWithTag("UI_GoalText");
+        cameraShake = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraShake>();
+    }
+
+    private void Start() {
+        pillarBottomanimator = GetComponent<Animator>();
     }
 
     public void TakeDamage(float _damage) {

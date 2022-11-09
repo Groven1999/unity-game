@@ -1,8 +1,6 @@
 Todolist:
 
 - Show text message if Player is trying to use Bomb ability, when Strong is too far away from Wik
-- Fix eemy healthbar bugs
-- Ignore layer collision when wik is retracted
 
 
 WhereToFind:

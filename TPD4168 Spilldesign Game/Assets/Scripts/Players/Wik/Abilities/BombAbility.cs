@@ -1,7 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
-using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 
 [CreateAssetMenu] // THIS TAG ENABLES CREATE -> Bomb Ability in project hierarchy. It lets you create ability objects
@@ -12,7 +8,7 @@ public class BombAbility : Ability
     public float damage = 1;
 
     // How far away can Wik be Strong for him to be able to use Bomb ability
-    public float maxDistanceFromPlayerStrong = 20;
+    public float maxDistanceFromPlayerStrong;
 
     [Header("Knockback")]
     [SerializeField] public float knockbackDamage = 50;
@@ -23,8 +19,10 @@ public class BombAbility : Ability
     public float shakeDuration;
     public float shakeMagnitude;
 
-
     public override void Activate(GameObject parent) {
+
+        // Play Sound
+        FindObjectOfType<AudioManager>().Play("BombAbilityExplosion");
 
         animator = GameObject.FindGameObjectWithTag("Bomb").GetComponent<Animator>();
         animator.SetTrigger("bomb");
@@ -74,11 +72,28 @@ public class BombAbility : Ability
 
         if (
             !isStrongUsingLeapSmash &&
-            !parent.GetComponent<Player_Wik_Movement>().isPickedUp &&
+            !isWikPickedUp &&
             distanceBetweenStrongAndWik <= maxDistanceFromPlayerStrong 
         ) { 
             return true; 
         } else {
+
+            // Give feedback message, depending on why Player cannot use Bomb
+            string feedbackMessage = "";
+            var feedbackMessageController = GameObject.FindGameObjectWithTag("FeedbackMessageHolder").GetComponent<FeedbackMessageController>();
+
+            if (isStrongUsingLeapSmash) {
+                feedbackMessage = "Can't use that now";
+            }
+            else if (isWikPickedUp) {
+                feedbackMessage = "THROW WIK FIRST";
+            }
+            else if (distanceBetweenStrongAndWik >= maxDistanceFromPlayerStrong) {
+                feedbackMessage = "WIK IS TOO FAR AWAY";
+            }
+
+            feedbackMessageController.StartCoroutine(feedbackMessageController.AlertFeedbackMessage(feedbackMessage));
+
             return false;
         }
     }

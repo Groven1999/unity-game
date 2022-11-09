@@ -12,6 +12,9 @@ public class PickUp : MonoBehaviour
         {
             itemHolding = collision.gameObject;
             itemHolding.GetComponent<Player_Wik_Movement>().pickedUp(true);
+
+            // Play Sound
+            FindObjectOfType<AudioManager>().Play("PickUpWik");
         }
     }
 }

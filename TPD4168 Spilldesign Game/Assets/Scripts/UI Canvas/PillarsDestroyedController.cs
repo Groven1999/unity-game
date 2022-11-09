@@ -24,7 +24,7 @@ public class PillarsDestroyedController : MonoBehaviour
             } else if (playerHealth.currentHealth <= 0) {
                 StartCoroutine(GameOver());
             } else {
-                pillarsDestroyedText.text = "PILLARS DESTROYED: " + pillarsDestroyed.ToString() + " / 5";
+                pillarsDestroyedText.text = "PILLARS DESTROYED: \n" + pillarsDestroyed.ToString() + " / 5";
             }
         }
         

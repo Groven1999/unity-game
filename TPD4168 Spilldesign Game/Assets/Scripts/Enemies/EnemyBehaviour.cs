@@ -7,6 +7,8 @@ public class EnemyBehaviour : MonoBehaviour
     [SerializeField] public float baseHealth;
     [SerializeField] public float health;
     [SerializeField] public float damage;
+
+    [HideInInspector]
     public Health playerHealth;
 
     [Header("HealthBar")]

@@ -19,6 +19,8 @@ TagManager:
   - Ability_Retract
   - AbilityPanel
   - Enemy_Insect
+  - FeedbackMessageHolder
+  - UI_GoalText
   layers:
   - Default
   - TransparentFX

@@ -17,6 +17,10 @@ public class RangedEnemyController : MonoBehaviour
     public float startTimeBetweenShots;
     private float timeBetweenShots;
 
+    private void Awake() {
+        player_Strong = GameObject.FindGameObjectWithTag("Player_Strong");
+    }
+
     private void Update() {
         Vector3 difference = player_Strong.transform.position - gun.transform.position;
 

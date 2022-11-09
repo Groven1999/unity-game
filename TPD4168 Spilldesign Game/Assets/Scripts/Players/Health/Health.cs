@@ -31,6 +31,10 @@ public class Health : MonoBehaviour
 
             if (currentHealth > 0) {
                 // player hurt
+
+                // Play Sound
+                FindObjectOfType<AudioManager>().Play("StrongTakesDamage");
+
                 StartCoroutine(Invunerability(IFramesDuration, numberOfFlashes, true));
 
                 // screen shake

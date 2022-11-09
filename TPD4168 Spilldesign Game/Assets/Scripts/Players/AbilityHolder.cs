@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class AbilityHolder : MonoBehaviour
@@ -11,6 +12,7 @@ public class AbilityHolder : MonoBehaviour
     enum AbilityState
     {
         ready,
+        cantUse,
         active,
         cooldown
     }
@@ -24,10 +26,12 @@ public class AbilityHolder : MonoBehaviour
         switch (state)
         {
             case AbilityState.ready:
-                if (Input.GetKey(key) && ability.CanUse(gameObject)) {
-                    ability.Activate(gameObject);
-                    state = AbilityState.active;
-                    activeTime = ability.activeTime;
+                if (Input.GetKeyDown(key)) {
+                    if (ability.CanUse(gameObject)) {
+                        ability.Activate(gameObject);
+                        state = AbilityState.active;
+                        activeTime = ability.activeTime;
+                    } 
                 }
                 break;
             case AbilityState.active:
@@ -64,6 +68,10 @@ public class AbilityHolder : MonoBehaviour
         } else {
             return ("cooldown");
         }
+    }
+
+    IEnumerator Wait() {
+        yield return new WaitForSeconds(1);
     }
 
 }

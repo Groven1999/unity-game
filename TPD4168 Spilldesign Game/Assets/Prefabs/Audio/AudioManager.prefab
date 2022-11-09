@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6157586592777937569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6157586592777937583}
+  - component: {fileID: 6157586592777937568}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6157586592777937583
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6157586592777937569}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.212044, y: -0.76744825, z: -0.110869326}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6157586592777937568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6157586592777937569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9174b51b78cea5e4cad9710e2d59332f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: 3ede3a051cd2546449134487c7bdf3ba, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: BombAbilityExplosion
+    clip: {fileID: 8300000, guid: 3bb647b41acfa3c4d85a268d4400ec9e, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: LeapSmashAbilityJump
+    clip: {fileID: 8300000, guid: 256c5464f17068544b0b168d74e24d17, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: LeapSmashAbilityLand
+    clip: {fileID: 8300000, guid: 45994e8172593544fb3f1220db8b9f29, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: LeapSmashAbilityExplosion
+    clip: {fileID: 8300000, guid: 2b0f83969ccc1f741bc8c14f766009ae, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: PickUpWik
+    clip: {fileID: 8300000, guid: 979e9497b449e524bad749ac2efa4ee2, type: 3}
+    volume: 0.641
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: StrongTakesDamage
+    clip: {fileID: 8300000, guid: b07542ddb5c761c469c91e5b4a8a1666, type: 3}
+    volume: 2
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
