@@ -6,10 +6,15 @@ public class Player_Strong_Movement : MonoBehaviour {
     public float movementSpeed;
     [SerializeField] public float normalMovementSpeed;
 
+    // Used for playing sound of leapSmash land correctly
+    [HideInInspector]
+    public float activeTime;
+
     public Vector2 moveInput;
 
     // abilities
     public bool usingLeapSmash;
+    public bool isUsingDash;
 
     private void Awake() {
         body = GetComponent<Rigidbody2D>();
@@ -32,11 +37,23 @@ public class Player_Strong_Movement : MonoBehaviour {
         Vector2 lookDirection = mousePosition - body.position;
         float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg - 90f;
         body.rotation = angle;
+
+        if (usingLeapSmash) {
+            print(activeTime);
+            if (activeTime < 0.3f && activeTime > 0) {
+                FindObjectOfType<AudioManager>().Play("LeapSmashAbilityLand");
+                activeTime = 0;
+            } else if (activeTime > 0) {
+                activeTime -= Time.deltaTime;
+            }
+        }
     }
 
     private void FixedUpdate() {
 
         if (usingLeapSmash) {
+            
+
             // Position of Wik
             GameObject playerWik = GameObject.FindGameObjectWithTag("Player_Wik");
 

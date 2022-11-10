@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 [CreateAssetMenu] // THIS TAG ENABLES CREATE -> Leap Smash Ability in project hierarchy. It lets you create ability objects
@@ -42,6 +43,7 @@ public class LeapSmashAbility : Ability
         Player_Strong_Movement playerStrongMovement = parent.GetComponent<Player_Strong_Movement>();
         playerStrongMovement.movementSpeed = leapSpeed;
         playerStrongMovement.usingLeapSmash = true;
+        playerStrongMovement.activeTime = activeTime;
 
         // Animation
         Animator animator = parent.GetComponent<Animator>();
@@ -49,9 +51,6 @@ public class LeapSmashAbility : Ability
     }
 
     public override void BeginCooldown(GameObject parent) {
-
-        // Play sound 
-        FindObjectOfType<AudioManager>().Play("LeapSmashAbilityLand");
 
         // Play sound 
         FindObjectOfType<AudioManager>().Play("LeapSmashAbilityExplosion"); 
@@ -98,23 +97,30 @@ public class LeapSmashAbility : Ability
 
     public override bool CanUse(GameObject parent) {
 
-        // Cannot use ability if Wik is currently being held by Strong, or if Wik is too far away
+        // Cannot use ability if Wik is currently being held by Strong, if Strong is using Dash, or if Wik is too far away
         // If FALSE -> give feedback to player
+
         GameObject player_wik = GameObject.FindGameObjectWithTag("Player_Wik");
         float distanceBetweenStrongAndWik = Vector3.Distance(parent.transform.position, player_wik.transform.position);
+        bool isWikPickedUp = player_wik.GetComponent<Player_Wik_Movement>().isPickedUp;
+        bool isStrongUsingDash = parent.GetComponent<Player_Strong_Movement>().isUsingDash;
 
-        if (!player_wik.GetComponent<Player_Wik_Movement>().isPickedUp) {
-            if (distanceBetweenStrongAndWik <= maxDistanceFromPlayerWik) {
-                return true;
-            } else {
-                var feedbackMessageController = GameObject.FindGameObjectWithTag("FeedbackMessageHolder").GetComponent<FeedbackMessageController>();
-                feedbackMessageController.StartCoroutine(feedbackMessageController.AlertFeedbackMessage("WIK IS TOO FAR AWAY"));
-                return false;
-            }
-        } else {
-            var feedbackMessageController = GameObject.FindGameObjectWithTag("FeedbackMessageHolder").GetComponent<FeedbackMessageController>();
+        var feedbackMessageController = GameObject.FindGameObjectWithTag("FeedbackMessageHolder").GetComponent<FeedbackMessageController>();
+
+        if (isStrongUsingDash) {
+            feedbackMessageController.StartCoroutine(feedbackMessageController.AlertFeedbackMessage("Can't use that now"));
+            return false;
+        } 
+        else if (isWikPickedUp) {
             feedbackMessageController.StartCoroutine(feedbackMessageController.AlertFeedbackMessage("THROW WIK FIRST"));
             return false;
+        }
+        else if (distanceBetweenStrongAndWik > maxDistanceFromPlayerWik) {
+            feedbackMessageController.StartCoroutine(feedbackMessageController.AlertFeedbackMessage("WIK IS TOO FAR AWAY"));
+            return false;
+        }
+        else {
+            return true;
         }
     }
 

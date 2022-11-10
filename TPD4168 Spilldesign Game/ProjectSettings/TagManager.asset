@@ -21,6 +21,7 @@ TagManager:
   - Enemy_Insect
   - FeedbackMessageHolder
   - UI_GoalText
+  - Ability_Dash
   layers:
   - Default
   - TransparentFX
@@ -33,7 +34,7 @@ TagManager:
   - Player Wik
   - Wall
   - Projectile
-  - 
+  - PostProcessing
   - 
   - 
   - 

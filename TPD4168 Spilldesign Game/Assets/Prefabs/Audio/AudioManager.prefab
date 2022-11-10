@@ -51,6 +51,12 @@ MonoBehaviour:
     pitch: 1
     source: {fileID: 0}
     loop: 1
+  - name: DashAbility
+    clip: {fileID: 8300000, guid: f3a508b5b0abe64479bc61d83436aba5, type: 3}
+    volume: 0.2
+    pitch: 0.6
+    source: {fileID: 0}
+    loop: 0
   - name: BombAbilityExplosion
     clip: {fileID: 8300000, guid: 3bb647b41acfa3c4d85a268d4400ec9e, type: 3}
     volume: 1
@@ -58,14 +64,14 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 0
   - name: LeapSmashAbilityJump
-    clip: {fileID: 8300000, guid: 256c5464f17068544b0b168d74e24d17, type: 3}
-    volume: 1
+    clip: {fileID: 8300000, guid: 105b15abfbc1ea74496b3b0b014b00c5, type: 3}
+    volume: 0.3
     pitch: 1
     source: {fileID: 0}
     loop: 0
   - name: LeapSmashAbilityLand
-    clip: {fileID: 8300000, guid: 45994e8172593544fb3f1220db8b9f29, type: 3}
-    volume: 1
+    clip: {fileID: 8300000, guid: 2c40d78770ff4014991ad2c59ab2594f, type: 3}
+    volume: 0.9
     pitch: 1
     source: {fileID: 0}
     loop: 0
@@ -77,13 +83,19 @@ MonoBehaviour:
     loop: 0
   - name: PickUpWik
     clip: {fileID: 8300000, guid: 979e9497b449e524bad749ac2efa4ee2, type: 3}
-    volume: 0.641
+    volume: 1
     pitch: 1
     source: {fileID: 0}
     loop: 0
   - name: StrongTakesDamage
     clip: {fileID: 8300000, guid: b07542ddb5c761c469c91e5b4a8a1666, type: 3}
     volume: 2
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: RetractStart
+    clip: {fileID: 8300000, guid: 066116a618fd2bd42a38c0d6c51aff98, type: 3}
+    volume: 1
     pitch: 1
     source: {fileID: 0}
     loop: 0

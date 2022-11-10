@@ -43,6 +43,12 @@ public class EnemyBehaviour : MonoBehaviour
     }
 
     public void takeDamage(float _damage) {
+
+        if (GameObject.FindGameObjectWithTag("Player_Wik").GetComponent<Player_Wik_Movement>().isRetracted) {
+            // Particle explosion Retract damage
+            GetComponent<ParticleEffectExplosion>().ParticleExplosionOnRetractDamage();
+        }
+
         health -= _damage;
 
         if (health <= 0) {

@@ -7,7 +7,8 @@ public class Retract : Ability {
 
     public override void Activate(GameObject parent) {
 
-        
+        // Play sound 
+        FindObjectOfType<AudioManager>().Play("RetractStart");
 
         GameObject playerWik = GameObject.FindGameObjectWithTag("Player_Wik");
         Player_Wik_Movement wikMovementScript = playerWik.GetComponent<Player_Wik_Movement>();
@@ -36,7 +37,20 @@ public class Retract : Ability {
 
     public override bool CanUse(GameObject parent) {
         Player_Wik_Movement wikMovementScript = GameObject.FindGameObjectWithTag("Player_Wik").GetComponent<Player_Wik_Movement>();
-        return (!wikMovementScript.isPickedUp && !wikMovementScript.isThrown);
+        var feedbackMessageController = GameObject.FindGameObjectWithTag("FeedbackMessageHolder").GetComponent<FeedbackMessageController>();
+
+        if (wikMovementScript.isPickedUp) {
+            feedbackMessageController.StartCoroutine(feedbackMessageController.AlertFeedbackMessage("Can't use that now"));
+            return false;
+        } 
+        else if (wikMovementScript.isThrown) {
+            feedbackMessageController.StartCoroutine(feedbackMessageController.AlertFeedbackMessage("Can't use that now"));
+            return false;
+        }
+        else {
+            return true;
+        }
+        
     }
 
     public override bool IsAbilityFinished(GameObject parent) {

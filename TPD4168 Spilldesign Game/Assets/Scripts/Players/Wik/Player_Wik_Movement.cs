@@ -47,7 +47,6 @@ public class Player_Wik_Movement : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, Time.deltaTime * movementSpeed);
         } else if (isRetracted) {
             // Ignore collision with enemies
-            //;
             targetPosition = GameObject.FindGameObjectWithTag("Player_Strong").transform.position;
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, Time.deltaTime * movementSpeed);
         } else {

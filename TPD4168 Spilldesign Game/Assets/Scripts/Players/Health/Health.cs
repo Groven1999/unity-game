@@ -47,10 +47,10 @@ public class Health : MonoBehaviour
         }
     }
 
-    public IEnumerator Invunerability(float duration, int _numberOfFlashes, bool ignoreCollision) {
+    public IEnumerator Invunerability(float duration, int _numberOfFlashes, bool ignoreCollisionWithEnemies) {
 
         // Ignore collision with enemies and projectiles
-        if (ignoreCollision) {
+        if (ignoreCollisionWithEnemies) {
             Physics2D.IgnoreLayerCollision(7, 6, true);
             Physics2D.IgnoreLayerCollision(7, 10, true);
         }
@@ -69,7 +69,7 @@ public class Health : MonoBehaviour
         }
 
         // Turn on collision with enemies and projectiles
-        if (ignoreCollision) {
+        if (ignoreCollisionWithEnemies) {
             Physics2D.IgnoreLayerCollision(7, 6, false);
             Physics2D.IgnoreLayerCollision(7, 10, false);
         }
