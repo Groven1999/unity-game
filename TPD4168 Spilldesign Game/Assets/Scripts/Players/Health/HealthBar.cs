@@ -9,6 +9,7 @@ public class HealthBar : MonoBehaviour
     [SerializeField] private Image currentHealthBar;
 
     private void Start() {
+        playerHealth = GameObject.FindGameObjectWithTag("Player_Strong").GetComponent<Health>();
         totalHealthBar.fillAmount = playerHealth.currentHealth / 10;
     }
 

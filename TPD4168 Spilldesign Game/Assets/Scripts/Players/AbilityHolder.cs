@@ -23,37 +23,39 @@ public class AbilityHolder : MonoBehaviour
 
     private void Update()
     {
-        switch (state)
-        {
-            case AbilityState.ready:
-                if (Input.GetKeyDown(key)) {
-                    if (ability.CanUse(gameObject)) {
-                        ability.Activate(gameObject);
-                        state = AbilityState.active;
-                        activeTime = ability.activeTime;
-                    } 
-                }
-                break;
-            case AbilityState.active:
-                if (activeTime > 0 && !ability.IsAbilityFinished(gameObject)) {
-                    activeTime -= Time.deltaTime;
-                }
-                else {
-                    activeTime = 0;
-                    ability.BeginCooldown(gameObject);
-                    state = AbilityState.cooldown;
-                    cooldownTime = ability.cooldownTime;
-                }
-                break;
-            case AbilityState.cooldown:
-                if (cooldownTime > 0) {
-                    cooldownTime -= Time.deltaTime;
-                }
-                else {
-                    state = AbilityState.ready;
-                }
-                break;
+        if (ability.isUnlocked) {
+            switch (state) {
+                case AbilityState.ready:
+                    if (Input.GetKeyDown(key)) {
+                        if (ability.CanUse(gameObject)) {
+                            ability.Activate(gameObject);
+                            state = AbilityState.active;
+                            activeTime = ability.activeTime;
+                        }
+                    }
+                    break;
+                case AbilityState.active:
+                    if (activeTime > 0 && !ability.IsAbilityFinished(gameObject)) {
+                        activeTime -= Time.deltaTime;
+                    }
+                    else {
+                        activeTime = 0;
+                        ability.BeginCooldown(gameObject);
+                        state = AbilityState.cooldown;
+                        cooldownTime = ability.cooldownTime;
+                    }
+                    break;
+                case AbilityState.cooldown:
+                    if (cooldownTime > 0) {
+                        cooldownTime -= Time.deltaTime;
+                    }
+                    else {
+                        state = AbilityState.ready;
+                    }
+                    break;
+            }
         }
+        
     }
 
     public float getCooldownTime() {

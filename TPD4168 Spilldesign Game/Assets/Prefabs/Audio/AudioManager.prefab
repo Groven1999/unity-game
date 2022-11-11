@@ -99,3 +99,15 @@ MonoBehaviour:
     pitch: 1
     source: {fileID: 0}
     loop: 0
+  - name: AbilityUnlock
+    clip: {fileID: 8300000, guid: c13c88f1997d2db43bf481e97118a4e1, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: ThrowWik
+    clip: {fileID: 8300000, guid: a1ba80fcda092ae4fa26e7dec22a223a, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0

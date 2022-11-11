@@ -15,8 +15,10 @@ public class Retract : Ability {
         wikMovementScript.movementSpeed = retractSpeed;
         wikMovementScript.isRetracted = true;
 
-        // Ignore collision with enemies
+        // Ignore collision with enemies and skippable walls
         Physics2D.IgnoreLayerCollision(6, 8, true);
+        Physics2D.IgnoreLayerCollision(8, 14, true);
+
 
         // Do damage to touched enemies
         playerWik.GetComponent<RetractDamage>().shouldDoDamage = true;
@@ -30,6 +32,7 @@ public class Retract : Ability {
 
         // Reset collision with enemies
         Physics2D.IgnoreLayerCollision(6, 8, false);
+        Physics2D.IgnoreLayerCollision(8, 14, false);
 
         // Ignore damage to touched enemies
         playerWik.GetComponent<RetractDamage>().shouldDoDamage = false;

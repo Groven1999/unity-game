@@ -20,6 +20,14 @@ public class FeedbackMessageController : MonoBehaviour
     }
 
     public void Setup(string newText) {
+
+        /*print(newText);
+        newText.Replace("Strong", "<color=#0EC1FF>Strong</color>");
+        newText.Replace("Wik", "<color=#0EC1FF>Wik</color>");
+        newText.Replace("STRONG", "<color=#0EC1FF>Strong</color>");
+        newText.Replace("WIK", "<color=#0EC1FF>WIK</color>");
+        print(newText);*/
+
         feedbackMessage.GetComponent<TextMeshPro>().text = newText;
     }
 }

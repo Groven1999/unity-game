@@ -22,6 +22,8 @@ TagManager:
   - FeedbackMessageHolder
   - UI_GoalText
   - Ability_Dash
+  - TutorialContentScreen
+  - AbilityUnlocked
   layers:
   - Default
   - TransparentFX
@@ -35,10 +37,10 @@ TagManager:
   - Wall
   - Projectile
   - PostProcessing
-  - 
-  - 
-  - 
-  - 
+  - UnlockAbilityPickUp
+  - TutorialInfo
+  - WallThatCanBeSkipped
+  - NoPostProcessing
   - 
   - 
   - 
@@ -71,11 +73,17 @@ TagManager:
   - name: Enemy
     uniqueID: 3187762453
     locked: 0
+  - name: TutorialInfo
+    uniqueID: 3718042937
+    locked: 0
   - name: Player Wik
     uniqueID: 1352188765
     locked: 0
   - name: Projectile
     uniqueID: 2114852489
+    locked: 0
+  - name: UnlockAbilityPickUp
+    uniqueID: 2555704759
     locked: 0
   - name: Player Strong
     uniqueID: 385191711

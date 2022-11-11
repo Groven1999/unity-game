@@ -15,7 +15,8 @@ MonoBehaviour:
   name: LeapSmash
   cooldownTime: 3
   activeTime: 1
-  leapSpeed: 7.3339963
+  isUnlocked: 1
+  leapSpeed: 5.728707
   splashRange: 3
   damage: 1
   maxDistanceFromPlayerWik: 10

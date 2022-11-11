@@ -6,7 +6,6 @@ public class ParticleEffectExplosion : MonoBehaviour
     private float activeTime;
 
     private void Update() {
-        print(activeTime);
         if (activeTime > 0) {
             activeTime -= Time.deltaTime;
         } else if (activeTime <= 0) {

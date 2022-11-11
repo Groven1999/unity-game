@@ -8,6 +8,10 @@ public class ThrowWik : Ability {
     public float movementSpeed;
 
     public override void Activate(GameObject parent) {
+
+        // Play sound 
+        FindObjectOfType<AudioManager>().Play("ThrowWik");
+
         GameObject playerWik = GameObject.FindGameObjectWithTag("Player_Wik");
         Player_Wik_Movement wikMovementScript = playerWik.GetComponent<Player_Wik_Movement>();
 
