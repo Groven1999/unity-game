@@ -6,17 +6,17 @@ public class AbilityCooldownRenderer : MonoBehaviour
 
     // Images for abilities, used in the Canvas
     [Header("Images")]
-    [SerializeField] public Image bombImage;
-    [SerializeField] public Image leapSmashImage;
-    [SerializeField] public Image retractImage;
-    [SerializeField] public Image dashImage;
+    private Image bombImage;
+    private Image leapSmashImage;
+    private Image retractImage;
+    private Image dashImage;
 
     // Ability holders
     [Header("Ability holders")]
-    [SerializeField] public AbilityHolder bombAbilityHolder;
-    [SerializeField] public AbilityHolder leapSmashAbilityHolder;
-    [SerializeField] public AbilityHolder retractAbilityHolder;
-    [SerializeField] public AbilityHolder dashAbilityHolder;
+    private AbilityHolder bombAbilityHolder;
+    private AbilityHolder leapSmashAbilityHolder;
+    private AbilityHolder retractAbilityHolder;
+    private AbilityHolder dashAbilityHolder;
 
     // Cooldown for the abilities
     private float bombCooldown;
@@ -24,12 +24,45 @@ public class AbilityCooldownRenderer : MonoBehaviour
     private float retractCooldown;
     private float dashCooldown;
 
-    private void Start() {
+    private void Awake() {
+        // Assign Player Strong ability holders
+        GameObject playerStrong = GameObject.FindGameObjectWithTag("Player_Strong");
+        AbilityHolder[] abilityHoldersPlayerStrong = playerStrong.GetComponents<AbilityHolder>();
+
+        foreach (AbilityHolder abilityHolder in abilityHoldersPlayerStrong) {
+            if (abilityHolder.ability.name == "LeapSmash") {
+                leapSmashAbilityHolder = abilityHolder;
+            }
+            if (abilityHolder.ability.name == "Retract") {
+                retractAbilityHolder = abilityHolder;
+            }
+
+            if (abilityHolder.ability.name == "Dash") {
+                dashAbilityHolder = abilityHolder;
+            }
+        }
+
+        // Assign Player Wik ability holders
+        GameObject playerWik = GameObject.FindGameObjectWithTag("Player_Wik");
+        AbilityHolder[] abilityHoldersPlayerWik = playerWik.GetComponents<AbilityHolder>();
+
+        foreach (AbilityHolder abilityHolder in abilityHoldersPlayerWik) {
+            if (abilityHolder.ability.name == "Bomb") {
+                bombAbilityHolder = abilityHolder;
+            }
+        }
+
         // Set cooldowns
         bombCooldown = bombAbilityHolder.ability.cooldownTime;
         leapSmashCooldown = leapSmashAbilityHolder.ability.cooldownTime;
         retractCooldown = retractAbilityHolder.ability.cooldownTime;
         dashCooldown = dashAbilityHolder.ability.cooldownTime;
+
+        // Set Images
+        bombImage = GameObject.FindGameObjectWithTag("Ability_Bomb").GetComponent<Image>();
+        leapSmashImage = GameObject.FindGameObjectWithTag("Ability_LeapSmash").GetComponent<Image>();
+        retractImage = GameObject.FindGameObjectWithTag("Ability_Retract").GetComponent<Image>();
+        dashImage = GameObject.FindGameObjectWithTag("Ability_Dash").GetComponent<Image>();
     }
 
     // Update is called once per frame

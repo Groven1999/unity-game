@@ -17,6 +17,7 @@ public class ParticleEffectExplosion : MonoBehaviour
     public void ParticleExplosion() {
         Object explosionRef = Resources.Load("ExplosionOnDeath2");
         GameObject explosion = (GameObject)Instantiate(explosionRef);
+        print("particle effect: " + transform.position);
         explosion.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
     }
 
@@ -30,5 +31,19 @@ public class ParticleEffectExplosion : MonoBehaviour
         }
 
         activeTime = 0.1f;
+    }
+
+    // Gold Box explode
+    public void ParticleExplosionGoldBoxDestroy() {
+        Object explosionRef = Resources.Load("GoldBoxExplode");
+        GameObject explosion = (GameObject)Instantiate(explosionRef);
+        explosion.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+    }
+
+    // Pillar explode
+    public void ParticleExplosionPillarDestroy() {
+        Object explosionRef = Resources.Load("PillarExplode");
+        GameObject explosion = (GameObject)Instantiate(explosionRef);
+        explosion.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
     }
 }

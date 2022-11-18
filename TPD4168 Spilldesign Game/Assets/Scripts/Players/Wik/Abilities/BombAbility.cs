@@ -86,10 +86,10 @@ public class BombAbility : Ability
                 feedbackMessage = "Can't use that now";
             }
             else if (isWikPickedUp) {
-                feedbackMessage = "THROW WIK FIRST";
+                feedbackMessage = "THROW <color=#a110ff>WIK</color> FIRST";
             }
             else if (distanceBetweenStrongAndWik >= maxDistanceFromPlayerStrong) {
-                feedbackMessage = "WIK IS TOO FAR AWAY";
+                feedbackMessage = "<color=#a110ff>WIK</color> IS TOO FAR AWAY";
             }
 
             feedbackMessageController.StartCoroutine(feedbackMessageController.AlertFeedbackMessage(feedbackMessage));

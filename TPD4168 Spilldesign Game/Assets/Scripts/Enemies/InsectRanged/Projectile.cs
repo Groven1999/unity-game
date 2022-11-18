@@ -28,6 +28,8 @@ public class Projectile : MonoBehaviour
             GameObject.FindGameObjectWithTag("Player_Strong").GetComponent<Health>()
                 .TakeDamage(damage);
             DestroyProjectile();
+        } else if (collision.gameObject.layer == 9) {
+            DestroyProjectile();
         }
         else if (collision.gameObject.tag == "Wall") {
             DestroyProjectile();

@@ -7,6 +7,11 @@ public class FeedbackMessageController : MonoBehaviour
     [SerializeField] public GameObject feedbackMessage;
     [SerializeField] public GameObject playerStrong;
 
+    private void Awake() {
+        playerStrong = GameObject.FindGameObjectWithTag("Player_Strong");
+        //feedbackMessage = GameObject.FindGameObjectWithTag("")
+    }
+
     // Give Player Feedback Message, e.g "Cannot use this ability, get closer!"
     public IEnumerator AlertFeedbackMessage(string message) {
         Setup(message);

@@ -10,6 +10,8 @@ public class HealthBar : MonoBehaviour
 
     private void Start() {
         playerHealth = GameObject.FindGameObjectWithTag("Player_Strong").GetComponent<Health>();
+        totalHealthBar = GameObject.FindGameObjectWithTag("UI_HealthBarTotal").GetComponent<Image>();
+        currentHealthBar = GameObject.FindGameObjectWithTag("UI_HealthBarCurrent").GetComponent<Image>();
         totalHealthBar.fillAmount = playerHealth.currentHealth / 10;
     }
 

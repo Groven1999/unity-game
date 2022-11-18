@@ -24,6 +24,9 @@ public class Player_Wik_Movement : MonoBehaviour
     {
         body = GetComponent<Rigidbody2D>();
         pickedUp(false);
+
+        player_Strong_firePoint = GameObject.FindGameObjectWithTag("Player_Strong_FirePoint");
+        player_Strong = GameObject.FindGameObjectWithTag("Player_Strong");
     }
 
     private void Update()
@@ -40,6 +43,12 @@ public class Player_Wik_Movement : MonoBehaviour
 
     private void FixedUpdate()
     {
+
+        if (movementSpeed <= 0) {
+            Physics2D.IgnoreLayerCollision(8, 14, false);
+        } else {
+            Physics2D.IgnoreLayerCollision(8, 14, true);
+        }
         // If Strong throws or retracts Wik
         if (isThrown) {
             isPickedUp = false;
@@ -75,6 +84,15 @@ public class Player_Wik_Movement : MonoBehaviour
         {
             movementSpeed = 0;
             body.velocity = Vector2.zero;
+        } 
+
+        else if (collision.gameObject.tag == "FloorGap") {
+            if (!isPickedUp && movementSpeed == 0 && !isThrown) {
+                targetPosition = GameObject.FindGameObjectWithTag("Player_Strong").transform.position;
+
+                transform.position = targetPosition;
+            }
+            
         }
     }
 }

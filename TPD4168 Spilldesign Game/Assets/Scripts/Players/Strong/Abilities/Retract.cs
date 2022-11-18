@@ -16,8 +16,10 @@ public class Retract : Ability {
         wikMovementScript.isRetracted = true;
 
         // Ignore collision with enemies and skippable walls
-        Physics2D.IgnoreLayerCollision(6, 8, true);
-        Physics2D.IgnoreLayerCollision(8, 14, true);
+        Physics2D.IgnoreLayerCollision(8, 6, true);
+        Physics2D.IgnoreLayerCollision(8, 9, true);
+        Physics2D.IgnoreLayerCollision(8, 17, true);
+        //Physics2D.IgnoreLayerCollision(8, 14, true);
 
 
         // Do damage to touched enemies
@@ -32,7 +34,9 @@ public class Retract : Ability {
 
         // Reset collision with enemies
         Physics2D.IgnoreLayerCollision(6, 8, false);
-        Physics2D.IgnoreLayerCollision(8, 14, false);
+        Physics2D.IgnoreLayerCollision(8, 9, false);
+        Physics2D.IgnoreLayerCollision(8, 17, false);
+        //Physics2D.IgnoreLayerCollision(8, 14, false);
 
         // Ignore damage to touched enemies
         playerWik.GetComponent<RetractDamage>().shouldDoDamage = false;

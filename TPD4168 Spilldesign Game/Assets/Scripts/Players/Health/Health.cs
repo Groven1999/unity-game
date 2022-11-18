@@ -23,6 +23,7 @@ public class Health : MonoBehaviour
     private void Awake() {
         currentHealth = startingHealth;
         spriteRenderer = GetComponent<SpriteRenderer>();
+        cameraShake = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraShake>();
     }
 
     public void TakeDamage(float _damage) {

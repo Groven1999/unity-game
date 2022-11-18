@@ -1,7 +1,7 @@
 using UnityEngine;
 
 public class Player_Strong_Movement : MonoBehaviour {
-    [SerializeField] private Camera cam;
+    private Camera cam;
     private Rigidbody2D body;
     public float movementSpeed;
     [SerializeField] public float normalMovementSpeed;
@@ -16,8 +16,15 @@ public class Player_Strong_Movement : MonoBehaviour {
     public bool usingLeapSmash;
     public bool isUsingDash;
 
+    // Cursor
+    public Texture2D cursorArrow;
+
     private void Awake() {
         body = GetComponent<Rigidbody2D>();
+        cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
+
+        // Set cursor
+        Cursor.SetCursor(cursorArrow, Vector3.zero, CursorMode.ForceSoftware);
     }
 
     private void Start() {

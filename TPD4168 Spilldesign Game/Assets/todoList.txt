@@ -2,6 +2,9 @@ Todolist:
 
 - Show text message if Player is trying to use Bomb ability, when Strong is too far away from Wik
 
+- Make UI Canvas a prefab
+- Make everyhing that can be a prefab a prefab. Make sure that all variables in prefabs are assigned in inspector, or in the code
+
 
 WhereToFind:
 - Projectile for Ranged enemy ligger som PREFAB i scripts -> enemy -> ranged enemy

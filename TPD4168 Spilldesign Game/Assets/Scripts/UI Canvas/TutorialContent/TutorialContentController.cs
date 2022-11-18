@@ -8,15 +8,15 @@ public class TutorialContentController : MonoBehaviour
     GameObject abilityUnlockedScreen;
 
     [Header("Content in the Unlocked Ability screen")]
-    public GameObject abilityName;
-    public GameObject abilityText;
-    public GameObject abilityImage;
+    private GameObject abilityName;
+    private GameObject abilityText;
+    private GameObject abilityImage;
 
-    [Header("Ability Images")]
-    public Image retractImage;
-    public GameObject leapSmashImage;
-    public GameObject bombImage;
-    public GameObject dashImage;
+    private void Awake() {
+        abilityName = GameObject.FindGameObjectWithTag("AbilityUnlockedName");
+        abilityText = GameObject.FindGameObjectWithTag("AbilityUnlockedText");
+        abilityImage = GameObject.FindGameObjectWithTag("AbilityUnlockedImage");
+    }
 
     private void Start() {
         abilityUnlockedScreen = GameObject.FindGameObjectWithTag("AbilityUnlocked");
@@ -26,10 +26,14 @@ public class TutorialContentController : MonoBehaviour
 
     public void ShowTutorialScreen(string ability) {
 
+        // Pause game
+        Time.timeScale = 0;
+
+        // Update content in tutorial holder with correct values
         if (ability == "Retract") {
             abilityName.GetComponent<TextMeshProUGUI>().text = "RETRACT";
 
-            var newText = "Retract <color=#0EC1FF>WIK</color> to <color=#0EC1FF>Strong's</color> position, dealing damage to enemies along the way! \n\nActivation key: <color=#0EC1FF>R</color>";
+            var newText = "Retract <color=#a110ff>WIK</color> to <color=#0EC1FF>STRONG'S</color> position, dealing damage to enemies along the way! \n\nActivation key: <color=#0EC1FF>R</color>";
             abilityText.GetComponent<TextMeshProUGUI>().text = newText;
 
             abilityImage.GetComponent<Image>().sprite = Resources.Load<Sprite>("RetractAbility");
@@ -37,7 +41,7 @@ public class TutorialContentController : MonoBehaviour
         else if (ability == "LeapSmash") {
             abilityName.GetComponent<TextMeshProUGUI>().text = "LEAP SMASH";
             
-            var newText = "<color=#0EC1FF>Strong</color> leaps into the air and slams down on <color=#0EC1FF>Wik</color>'s position, dealing huge damage to nearby enemies! \n\nActivation key: <color=#0EC1FF>E</color>";
+            var newText = "<color=#0EC1FF>STRONG</color> leaps into the air and slams down on <color=#a110ff>WIK'S</color> position, dealing huge damage to nearby enemies! \n\nActivation key: <color=#0EC1FF>E</color>";
             abilityText.GetComponent<TextMeshProUGUI>().text = newText;
 
             abilityImage.GetComponent<Image>().sprite = Resources.Load<Sprite>("LeapSmashAbility");
@@ -45,7 +49,7 @@ public class TutorialContentController : MonoBehaviour
         else if (ability == "Bomb") {
             abilityName.GetComponent<TextMeshProUGUI>().text = "BOMB";
 
-            var newText = "<color=#0EC1FF>WIK</color> explodes, dealing huge damage and knocks back nearby enemies! \n\nActivation key: <color=#0EC1FF>Q</color>";
+            var newText = "<color=#a110ff>WIK</color> explodes, dealing huge damage and knocks back nearby enemies! \n\nActivation key: <color=#0EC1FF>Q</color>";
             abilityText.GetComponent<TextMeshProUGUI>().text = newText;
 
             abilityImage.GetComponent<Image>().sprite = Resources.Load<Sprite>("BombAbility");
@@ -66,6 +70,10 @@ public class TutorialContentController : MonoBehaviour
     }
 
     public void ExitTutorialSreen() {
+
+        // Resume game
+        Time.timeScale = 1;
+
         abilityUnlockedScreen.SetActive(false);
     }
 }

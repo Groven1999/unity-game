@@ -15,6 +15,7 @@ MonoBehaviour:
   name: Bomb
   cooldownTime: 2
   activeTime: 0.1
+  isUnlocked: 1
   splashRange: 2
   damage: 1
   maxDistanceFromPlayerStrong: 10

@@ -1,13 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
     // Room camera
     [SerializeField] private float speed;
-    private float currentPosX;
-    private Vector3 velocity = Vector3.zero;
     public GameObject cameraholder;
 
     // Follow player camera
@@ -16,10 +12,9 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float cameraSpeed;
     private float lookAhead;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
+    private void Awake() {
+        cameraholder = GameObject.FindGameObjectWithTag("MainCameraHolder");
+        player = GameObject.FindGameObjectWithTag("Player_Strong").GetComponent<Transform>();
     }
 
     // Update is called once per frame

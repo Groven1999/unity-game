@@ -26,6 +26,5 @@ public class InitializeLevelAbilities : MonoBehaviour
         dashAbility.isUnlocked = dashAbilityUnlocked;
         throwWikAbility.isUnlocked = throwWikAbilityUnlocked;
         bombAbility.isUnlocked = bombAbilityUnlocked;
-        ;
     }
 }

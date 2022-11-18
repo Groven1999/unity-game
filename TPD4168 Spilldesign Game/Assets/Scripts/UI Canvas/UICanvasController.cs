@@ -18,7 +18,7 @@ public class UICanvasController : MonoBehaviour
         leapSmashHolder.SetActive(false);
         retractHolder.SetActive(false);
         dashHolder.SetActive(false);
-        bombHolder.SetActive(false);
+        bombHolder.SetActive(false); 
     }
 
     private void Update() {

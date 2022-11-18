@@ -112,11 +112,11 @@ public class LeapSmashAbility : Ability
             return false;
         } 
         else if (isWikPickedUp) {
-            feedbackMessageController.StartCoroutine(feedbackMessageController.AlertFeedbackMessage("THROW WIK FIRST"));
+            feedbackMessageController.StartCoroutine(feedbackMessageController.AlertFeedbackMessage("THROW <color=#a110ff>WIK</color> FIRST"));
             return false;
         }
         else if (distanceBetweenStrongAndWik > maxDistanceFromPlayerWik) {
-            feedbackMessageController.StartCoroutine(feedbackMessageController.AlertFeedbackMessage("WIK IS TOO FAR AWAY"));
+            feedbackMessageController.StartCoroutine(feedbackMessageController.AlertFeedbackMessage("<color=#a110ff>WIK</color> IS TOO FAR AWAY"));
             return false;
         }
         else {

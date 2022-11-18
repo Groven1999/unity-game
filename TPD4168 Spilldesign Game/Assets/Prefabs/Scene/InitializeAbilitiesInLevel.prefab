@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7967321971787743190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7967321971787743184}
+  - component: {fileID: 7967321971787743187}
+  m_Layer: 0
+  m_Name: InitializeAbilitiesInLevel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7967321971787743184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7967321971787743190}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.348051, y: 2.0069413, z: -10.048118}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7967321971787743187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7967321971787743190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 348b4ec0adaeb5d40bcea74ffbd5b28b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leapSmashAbility: {fileID: 11400000, guid: c2363d501ff48cb40899f7ed0a8da970, type: 2}
+  retractAbility: {fileID: 11400000, guid: 00231b8f9aebdad4393a9d48071c0284, type: 2}
+  dashAbility: {fileID: 11400000, guid: a4450610ffd02f64fa3eb2c4629178f1, type: 2}
+  throwWikAbility: {fileID: 11400000, guid: e8318a25188bf204598b49cb7ab9ca6d, type: 2}
+  bombAbility: {fileID: 11400000, guid: 074bc14c6ca81cf4196ff470cd9e6446, type: 2}
+  leapSmashAbilityUnlocked: 0
+  retractAbilityUnlocked: 0
+  dashAbilityUnlocked: 0
+  throwWikAbilityUnlocked: 0
+  bombAbilityUnlocked: 0

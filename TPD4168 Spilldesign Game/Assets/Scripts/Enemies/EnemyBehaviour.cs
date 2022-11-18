@@ -51,6 +51,12 @@ public class EnemyBehaviour : MonoBehaviour
 
         health -= _damage;
 
+        if (gameObject.GetComponent<InsectMovement>()) {
+            if (!gameObject.GetComponent<InsectMovement>().shouldMoveTowardsPlayer) {
+                GetComponent<InsectMovement>().shouldMoveTowardsPlayer = true;
+            }
+        }
+
         if (health <= 0) {
             KillSelf();
         }
@@ -65,7 +71,7 @@ public class EnemyBehaviour : MonoBehaviour
         // Particle explosion
         GetComponent<ParticleEffectExplosion>().ParticleExplosion();
 
-        if (gameObject.tag == "Enemy_Insect") {
+        if (gameObject.tag == "Enemy_Insect" && gameObject.GetComponent<InsectMovement>().shouldRespawn) {
             gameObject.SetActive(true);
             health = baseHealth;
             gameObject.transform.position = new Vector3(Random.Range(-10.0f, 25.0f), Random.Range(-4.0f, 9.0f), 0);
@@ -91,5 +97,10 @@ public class EnemyBehaviour : MonoBehaviour
         //yield return 0;
         yield return new WaitForSeconds(knockbackDuration);
         isKnockbacked = false;
+    }
+
+    public void ResetHealth() {
+        health = baseHealth;
+        healthBar.UpdateHealth(health / baseHealth);
     }
 }

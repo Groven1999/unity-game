@@ -30,7 +30,7 @@ public class HealthPillar : MonoBehaviour
 
     private void Awake() {
         currentHealth = startingHealth;
-        pillarsDestroyedText = GameObject.FindGameObjectWithTag("UI_GoalText");
+        //pillarsDestroyedText = GameObject.FindGameObjectWithTag("UI_GoalText");
         cameraShake = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraShake>();
     }
 
@@ -51,13 +51,15 @@ public class HealthPillar : MonoBehaviour
             // screen shake
             StartCoroutine(cameraShake.Shake(onDeathShakeDuration, onDeathShakeMagnitude));
 
+            print("jadda");
             StartCoroutine(KillSelf());
         }
     }
 
     IEnumerator KillSelf() {
 
-        pillarsDestroyedText.GetComponent<PillarsDestroyedController>().PillarDestroyed();
+        print("hit");
+        //pillarsDestroyedText.GetComponent<PillarsDestroyedController>().PillarDestroyed();
 
         // Shrink turret
         pillarBottomanimator.SetTrigger("shrink");
@@ -65,11 +67,13 @@ public class HealthPillar : MonoBehaviour
         yield return new WaitForSeconds(1.3f);
 
         // Particle explosion
-        GetComponent<ParticleEffectExplosion>().ParticleExplosion();
+        GetComponent<ParticleEffectExplosion>().ParticleExplosionPillarDestroy();
 
         // Set inactive
-        gameObject.SetActive(false);
-        pillarTop.SetActive(false);
+        Destroy(gameObject.transform.parent.gameObject);
+        //Destroy(gameObject);
+        //Destroy(pillarTop);
+        //pillarTop.SetActive(false);
         yield return null;
     }
 }

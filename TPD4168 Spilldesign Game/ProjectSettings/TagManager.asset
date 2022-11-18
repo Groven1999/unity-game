@@ -24,6 +24,25 @@ TagManager:
   - Ability_Dash
   - TutorialContentScreen
   - AbilityUnlocked
+  - Player_Strong_FirePoint
+  - UI_HealthBarTotal
+  - UI_HealthBarCurrent
+  - AbilityUnlockedText
+  - AbilityUnlockedImage
+  - AbilityUnlockedName
+  - BoxForAbilityUnlock
+  - Enemy_Pillar
+  - FloorGap
+  - Background_Space
+  - LevelGuideContent
+  - LevelGuideBackgroundImage
+  - LevelGuideInfoHolder
+  - LevelGuideInfo
+  - LevelController
+  - LevelGuideImage
+  - Player_Strong_SpawnFlyingEnemyPoint
+  - FlyingEnemySpawner
+  - PillarSpawnStingerPoint
   layers:
   - Default
   - TransparentFX
@@ -41,8 +60,8 @@ TagManager:
   - TutorialInfo
   - WallThatCanBeSkipped
   - NoPostProcessing
-  - 
-  - 
+  - NextLevelTeleporter
+  - FlyingEnemy
   - 
   - 
   - 
@@ -84,6 +103,9 @@ TagManager:
     locked: 0
   - name: UnlockAbilityPickUp
     uniqueID: 2555704759
+    locked: 0
+  - name: BoxForAbilityUnlock
+    uniqueID: 2414793741
     locked: 0
   - name: Player Strong
     uniqueID: 385191711
